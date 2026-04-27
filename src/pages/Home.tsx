@@ -58,11 +58,10 @@ export function Home() {
               <div className="flex flex-col sm:flex-row gap-6">
                 <Link 
                   to="/contact" 
-                  className="px-10 py-5 bg-white text-black font-black uppercase text-xs tracking-widest hover:bg-roof-orange hover:text-white transition-colors shadow-2xl"
+                  className="px-10 py-5 bg-white text-black font-black uppercase text-xs tracking-widest hover:bg-roof-orange hover:text-white transition-colors shadow-2xl w-full sm:w-auto text-center"
                 >
                   Get Your Free Quote Today
                 </Link>
-
               </div>
             </motion.div>
           </div>
@@ -204,7 +203,7 @@ export function Home() {
       <section className="py-20 md:py-40 bg-white relative overflow-hidden text-stone-900">
         <div className="shingle-texture absolute inset-0 pointer-events-none" />
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16 relative z-10">
-          <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-24">
+          <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-12 md:mb-24">
             <div className="max-w-2xl">
               <h2 className="text-4xl md:text-5xl mb-4 text-stone-900">Precision <span className="text-roof-red font-black italic">Workmanship.</span></h2>
               <p className="text-stone-500 text-lg">Every project we take on is treated with the same level of focus, whether it's a simple repair or a multi-million dollar installation.</p>
