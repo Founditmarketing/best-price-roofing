@@ -33,7 +33,7 @@ export function Navbar() {
             <img
               src="/logo.png"
               alt="Best Price Roofing"
-              className={`object-contain transition-all duration-300 ${isScrolled ? 'h-10' : 'h-14'}`}
+              className={`object-contain transition-all duration-300 brightness-0 invert ${isScrolled ? 'h-10' : 'h-14'}`}
             />
           </Link>
 

@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12 border-b border-white/10 pb-20">
           <div className="col-span-1 md:col-span-1">
              <Link to="/" className="block mb-8">
-                <img src="/logo.png" alt="Best Price Roofing" className="h-14 object-contain" />
+                <img src="/logo.png" alt="Best Price Roofing" className="h-14 object-contain brightness-0 invert" />
               </Link>
               <p className="text-stone-500 text-xs leading-relaxed mb-8 uppercase tracking-widest font-medium">
                 Professional, affordable roofing services built to withstand the unique challenges of the Louisiana climate.
