@@ -377,15 +377,15 @@ export function Home() {
             <div className="bg-roof-charcoal p-8 md:p-16 rounded shadow-2xl border border-white/5">
                <form className="grid md:grid-cols-2 gap-8 text-left">
                   <div className="space-y-3">
-                    <label className="text-[9px] font-black uppercase tracking-[0.2em] text-stone-500">FullName</label>
+                    <label className="text-[9px] font-black uppercase tracking-[0.2em] text-stone-400">FullName</label>
                     <input type="text" placeholder="John Doe" className="w-full px-0 py-3 bg-transparent border-b border-white/20 text-white focus:outline-none focus:border-roof-red transition-all font-bold text-lg" />
                   </div>
                   <div className="space-y-3">
-                    <label className="text-[9px] font-black uppercase tracking-[0.2em] text-stone-500">Phone</label>
+                    <label className="text-[9px] font-black uppercase tracking-[0.2em] text-stone-400">Phone</label>
                     <input type="tel" placeholder="318-000-0000" className="w-full px-0 py-3 bg-transparent border-b border-white/20 text-white focus:outline-none focus:border-roof-red transition-all font-mono text-lg" />
                   </div>
                   <div className="md:col-span-2 space-y-3">
-                    <label className="text-[9px] font-black uppercase tracking-[0.2em] text-stone-500">Requirements</label>
+                    <label className="text-[9px] font-black uppercase tracking-[0.2em] text-stone-400">Requirements</label>
                     <textarea rows={3} placeholder="Brief details about your property..." className="w-full px-0 py-3 bg-transparent border-b border-white/20 text-white focus:outline-none focus:border-roof-red transition-all font-medium text-stone-300" />
                   </div>
                   <div className="md:col-span-2 mt-8">

@@ -10,7 +10,7 @@ export function Contact() {
           animate={{ opacity: 1, y: 0 }}
           className="mb-20"
         >
-          <div className="text-label text-stone-500 mb-6 uppercase tracking-widest font-black">Secure Your Asset — Connection Line</div>
+          <div className="text-label text-stone-400 mb-6 uppercase tracking-widest font-black">Secure Your Asset — Connection Line</div>
           <h1 className="text-[56px] md:text-[100px] leading-none mb-8 uppercase tracking-tighter italic font-black">
             Let's <span className="text-roof-red">Talk</span> Shop.
           </h1>
@@ -26,24 +26,24 @@ export function Contact() {
                 <div>
                    <div className="flex items-center gap-4 mb-6">
                       <div className="w-10 h-[1px] bg-roof-red" />
-                      <span className="text-[10px] font-black uppercase tracking-[0.3em] text-stone-500">Operation Center</span>
+                      <span className="text-[10px] font-black uppercase tracking-[0.3em] text-stone-400">Operation Center</span>
                    </div>
                    <div className="space-y-8">
                       <div className="group">
-                         <div className="text-[9px] font-black uppercase text-stone-600 mb-2 tracking-widest">Rapid Hotline</div>
+                         <div className="text-[9px] font-black uppercase text-stone-400 mb-2 tracking-widest">Rapid Hotline</div>
                          <a href="tel:3186130072" className="text-4xl font-black italic tracking-tighter hover:text-roof-red transition-all block">318-613-0072</a>
-                         <div className="text-[10px] text-stone-500 mt-2 font-mono uppercase">24/7 Storm Response Active</div>
+                         <div className="text-[10px] text-stone-400 mt-2 font-mono uppercase">24/7 Storm Response Active</div>
                       </div>
 
                       <div className="group">
-                         <div className="text-[9px] font-black uppercase text-stone-600 mb-2 tracking-widest">Data Transmission</div>
+                         <div className="text-[9px] font-black uppercase text-stone-400 mb-2 tracking-widest">Data Transmission</div>
                          <div className="text-2xl font-bold tracking-tight">quotes@bestpriceroof.com</div>
                       </div>
 
                       <div className="group">
-                         <div className="text-[9px] font-black uppercase text-stone-600 mb-2 tracking-widest">Strategic Radius</div>
+                         <div className="text-[9px] font-black uppercase text-stone-400 mb-2 tracking-widest">Strategic Radius</div>
                          <div className="text-xl font-bold text-stone-300">Central Louisiana / Alexandria Hub</div>
-                         <div className="text-[10px] text-stone-500 mt-1 uppercase leading-tight font-medium">Alexandria • Pineville • Woodworth • Ball • Boyce</div>
+                         <div className="text-[10px] text-stone-400 mt-1 uppercase leading-tight font-medium">Alexandria • Pineville • Woodworth • Ball • Boyce</div>
                       </div>
                    </div>
                 </div>
@@ -73,21 +73,21 @@ export function Contact() {
              <div className="industrial-grid absolute inset-0 opacity-5 pointer-events-none" />
              
              <div className="relative z-10 max-w-xl">
-                <div className="text-2xl font-black uppercase italic mb-12 tracking-tight">Request Zero-Value Inspection <span className="text-stone-500">—</span> Free.</div>
+                <div className="text-2xl font-black uppercase italic mb-12 tracking-tight">Request Zero-Value Inspection <span className="text-stone-400">—</span> Free.</div>
                 <form className="space-y-8">
                    <div className="grid md:grid-cols-2 gap-8">
                       <div className="space-y-3">
-                         <label className="text-[9px] font-black uppercase tracking-widest text-stone-500">Asset Owner</label>
+                         <label className="text-[9px] font-black uppercase tracking-widest text-stone-400">Asset Owner</label>
                          <input type="text" className="w-full bg-transparent border-b border-white/20 px-0 py-2 focus:border-roof-red focus:outline-none transition-all font-bold text-lg" placeholder="Enter name" />
                       </div>
                       <div className="space-y-3">
-                         <label className="text-[9px] font-black uppercase tracking-widest text-stone-500">Comm Line</label>
+                         <label className="text-[9px] font-black uppercase tracking-widest text-stone-400">Comm Line</label>
                          <input type="tel" className="w-full bg-transparent border-b border-white/20 px-0 py-2 focus:border-roof-red focus:outline-none transition-all font-mono text-lg" placeholder="318-xxx-xxxx" />
                       </div>
                    </div>
 
                    <div className="space-y-3">
-                      <label className="text-[9px] font-black uppercase tracking-widest text-stone-500">Protocol Required</label>
+                      <label className="text-[9px] font-black uppercase tracking-widest text-stone-400">Protocol Required</label>
                       <select className="w-full bg-transparent border-b border-white/20 px-0 py-2 focus:border-roof-red focus:outline-none transition-all font-bold text-lg appearance-none cursor-pointer">
                          <option className="bg-roof-charcoal">Full Installation</option>
                          <option className="bg-roof-charcoal">Structural Repair</option>
@@ -97,7 +97,7 @@ export function Contact() {
                    </div>
 
                    <div className="space-y-3">
-                      <label className="text-[9px] font-black uppercase tracking-widest text-stone-500">Event Details</label>
+                      <label className="text-[9px] font-black uppercase tracking-widest text-stone-400">Event Details</label>
                       <textarea rows={3} className="w-full bg-transparent border-b border-white/20 px-0 py-2 focus:border-roof-red focus:outline-none transition-all font-medium text-stone-300" placeholder="Leak detection, storm event, or age-related decay..." />
                    </div>
 
@@ -120,7 +120,7 @@ export function Contact() {
                  <div className="w-3 h-3 bg-roof-red rounded-full animate-pulse" />
                  <span className="text-label text-roof-red">Operating Hub</span>
               </div>
-              <h4 className="text-2xl font-black italic tracking-tighter uppercase">Alexandria, Louisiana <br/><span className="text-stone-500 text-lg">Central Coordination Office</span></h4>
+              <h4 className="text-2xl font-black italic tracking-tighter uppercase">Alexandria, Louisiana <br/><span className="text-stone-300 text-lg">Central Coordination Office</span></h4>
            </div>
         </div>
       </div>

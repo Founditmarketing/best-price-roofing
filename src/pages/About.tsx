@@ -26,11 +26,11 @@ export function About() {
             <div className="grid grid-cols-2 gap-8 border-t border-white/10 pt-10">
               <div>
                 <div className="text-4xl font-black text-white mb-2 italic">100%</div>
-                <div className="text-[10px] text-stone-500 font-black uppercase tracking-widest leading-none">Louisiana Owned & Operated</div>
+                <div className="text-[10px] text-stone-400 font-black uppercase tracking-widest leading-none">Louisiana Owned & Operated</div>
               </div>
               <div>
                 <div className="text-4xl font-black text-white mb-2 italic">ZERO</div>
-                <div className="text-[10px] text-stone-500 font-black uppercase tracking-widest leading-none">Pushy Sales Gear Only Honesty</div>
+                <div className="text-[10px] text-stone-400 font-black uppercase tracking-widest leading-none">Pushy Sales Gear Only Honesty</div>
               </div>
             </div>
           </motion.div>
@@ -82,11 +82,11 @@ export function About() {
                  </p>
                  <div className="grid grid-cols-2 gap-6 bg-white/5 p-8 border-l-2 border-roof-red">
                     <div>
-                       <div className="text-[10px] font-black text-stone-500 uppercase mb-2">Sponsorships</div>
+                       <div className="text-[10px] font-black text-stone-400 uppercase mb-2">Sponsorships</div>
                        <p className="text-xs text-white uppercase font-bold italic">Local Youth Baseball • Cenla Food Bank</p>
                     </div>
                     <div>
-                       <div className="text-[10px] font-black text-stone-500 uppercase mb-2">Location Hub</div>
+                       <div className="text-[10px] font-black text-stone-400 uppercase mb-2">Location Hub</div>
                        <p className="text-xs text-white uppercase font-bold italic">Pineville • Woodworth • Alexandria</p>
                     </div>
                  </div>

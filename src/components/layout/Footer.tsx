@@ -27,7 +27,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-label text-stone-500 mb-8">Navigation</h4>
+            <h4 className="text-label text-stone-400 mb-8">Navigation</h4>
             <ul className="flex flex-col gap-4">
               <li><Link to="/" className="text-xs font-bold uppercase tracking-widest hover:text-roof-red transition-colors">Home</Link></li>
               <li><Link to="/about" className="text-xs font-bold uppercase tracking-widest hover:text-roof-red transition-colors">About Us</Link></li>
@@ -38,7 +38,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-label text-stone-500 mb-8">Direct Contact</h4>
+            <h4 className="text-label text-stone-400 mb-8">Direct Contact</h4>
             <ul className="flex flex-col gap-8">
               <li className="flex flex-col gap-2">
                 <span className="text-[10px] text-roof-red uppercase tracking-widest font-black">Call Anytime</span>
@@ -52,7 +52,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-label text-stone-500 mb-8">Industry Standards</h4>
+            <h4 className="text-label text-stone-400 mb-8">Industry Standards</h4>
             <ul className="flex flex-col gap-4">
               <li className="text-xs font-bold uppercase tracking-widest text-stone-400 flex items-center gap-3">
                 <div className="w-1.5 h-1.5 bg-roof-red" /> Fully Licensed & Insured
@@ -71,13 +71,13 @@ export function Footer() {
         </div>
 
         <div className="pt-12 flex flex-col md:flex-row justify-between items-center gap-8">
-          <div className="flex gap-8 text-[9px] font-black text-stone-600 uppercase tracking-[0.2em]">
+          <div className="flex gap-8 text-[9px] font-black text-stone-400 uppercase tracking-[0.2em]">
             <span>© 2024 BEST PRICE ROOFING</span>
             <span>LICENSED #LA-123456</span>
           </div>
           <div className="flex gap-8">
-            <a href="#" className="text-[9px] font-black text-stone-600 uppercase tracking-[0.2em] hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="text-[9px] font-black text-stone-600 uppercase tracking-[0.2em] hover:text-white transition-colors">Terms of Use</a>
+            <a href="#" className="text-[9px] font-black text-stone-400 uppercase tracking-[0.2em] hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="text-[9px] font-black text-stone-400 uppercase tracking-[0.2em] hover:text-white transition-colors">Terms of Use</a>
           </div>
         </div>
       </div>

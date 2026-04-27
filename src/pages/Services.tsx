@@ -76,7 +76,7 @@ export function Services() {
 
         {/* Industrial Capabilities Expansion */}
         <div className="mt-40 border-t border-white/10 pt-40">
-           <div className="text-label text-stone-500 mb-16 uppercase tracking-widest font-black">Industrial Division — Capability Matrix</div>
+           <div className="text-label text-stone-400 mb-16 uppercase tracking-widest font-black">Industrial Division — Capability Matrix</div>
            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border border-white/5">
               {[
                 { t: 'Multi-Family', d: 'Expert handling of apartment complexes and HOA communities.' },
@@ -86,7 +86,7 @@ export function Services() {
               ].map((cap, i) => (
                 <div key={i} className="bg-black p-10 group hover:bg-roof-red/5 transition-colors">
                    <div className="text-white font-black text-xl mb-4 italic uppercase tracking-tighter group-hover:text-roof-red transition-colors">{cap.t}</div>
-                   <p className="text-xs text-stone-500 leading-relaxed font-bold uppercase tracking-wider">{cap.d}</p>
+                   <p className="text-xs text-stone-300 leading-relaxed font-bold uppercase tracking-wider">{cap.d}</p>
                 </div>
               ))}
            </div>
@@ -134,7 +134,7 @@ export function Services() {
            <div className="relative z-10 grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-3xl text-white mb-6 italic">Dealing with <span className="text-roof-red not-italic font-black">Storm Damage?</span></h3>
-                <p className="text-stone-400 font-medium leading-relaxed uppercase tracking-widest text-xs">
+                <p className="text-stone-300 font-medium leading-relaxed uppercase tracking-widest text-xs">
                   We specialize in the Louisiana insurance landscape. Our experts walk you through every step of the claim process to ensure full coverage for your loss.
                 </p>
               </div>

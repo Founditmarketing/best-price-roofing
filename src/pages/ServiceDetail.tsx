@@ -99,7 +99,7 @@ export function ServiceDetail() {
                   <Phone size={20} className="text-white" />
                 </div>
                 <div>
-                  <div className="text-[10px] font-black uppercase tracking-widest text-stone-500">Call Us Directly</div>
+                  <div className="text-[10px] font-black uppercase tracking-widest text-stone-400">Call Us Directly</div>
                   <div className="text-xl font-black text-white group-hover:text-roof-red transition-colors">318-613-0072</div>
                 </div>
               </a>
@@ -111,7 +111,7 @@ export function ServiceDetail() {
       {/* Related Services */}
       <section className="py-24 bg-roof-charcoal border-t border-white/5">
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
-          <div className="text-label text-stone-500 mb-12 uppercase tracking-widest font-black">Related Services</div>
+          <div className="text-label text-stone-400 mb-12 uppercase tracking-widest font-black">Related Services</div>
           <div className="grid md:grid-cols-3 gap-8">
             {related.map(s => (
               <Link
