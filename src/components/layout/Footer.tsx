@@ -67,9 +67,8 @@ export function Footer() {
             <span>© 2024 BEST PRICE ROOFING</span>
             <span>LICENSED & INSURED</span>
           </div>
-          <div className="flex gap-8">
-            <a href="#" className="text-[9px] font-black text-stone-400 uppercase tracking-[0.2em] hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="text-[9px] font-black text-stone-400 uppercase tracking-[0.2em] hover:text-white transition-colors">Terms of Use</a>
+          <div className="text-[9px] font-black text-stone-600 uppercase tracking-[0.2em]">
+            Alexandria, Louisiana — Serving All of Cenla
           </div>
         </div>
       </div>

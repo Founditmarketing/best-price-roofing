@@ -77,7 +77,7 @@ export function Services() {
         {/* Industrial Capabilities Expansion */}
         <div className="mt-40 border-t border-white/10 pt-40">
            <div className="text-label text-stone-400 mb-16 uppercase tracking-widest font-black">Industrial Division — Capability Matrix</div>
-           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border border-white/5 text-stone-900">
+           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border border-white/5">
               {[
                 { t: 'Multi-Family', d: 'Expert handling of apartment complexes and HOA communities.' },
                 { t: 'Flat Roofing', d: 'Low-slope and flat roof solutions for residential and commercial properties.' },

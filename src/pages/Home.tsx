@@ -73,15 +73,15 @@ export function Home() {
              <div className="space-y-6 relative z-10">
                 <div className="h-[1px] w-full bg-linear-to-r from-transparent via-white/20 to-transparent" />
                 <div className="flex justify-between items-center">
-                  <span className="text-label text-stone-500">Premium Materials</span>
+                  <span className="text-label text-stone-300">Premium Materials</span>
                   <span className="text-xs font-mono text-white">Owens Corning</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-label text-stone-500">Lead Time</span>
+                  <span className="text-label text-stone-300">Lead Time</span>
                   <span className="text-xs font-mono text-white">Free Inspection</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-label text-stone-500">Expertise</span>
+                  <span className="text-label text-stone-300">Expertise</span>
                   <span className="text-xs font-mono text-white">Insurance Mastery</span>
                 </div>
              </div>

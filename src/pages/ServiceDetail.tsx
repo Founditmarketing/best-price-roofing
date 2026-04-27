@@ -19,7 +19,7 @@ export function ServiceDetail() {
         <div className="absolute inset-0 bg-linear-to-t from-roof-charcoal via-roof-charcoal/50 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 py-20">
           <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
-            <Link to="/services" className="inline-flex items-center gap-2 text-roof-red font-bold uppercase text-xs tracking-widest mb-6">
+            <Link to="/services" className="inline-flex items-center gap-2 bg-black/60 backdrop-blur-sm text-white font-bold uppercase text-xs tracking-widest mb-6 px-4 py-2 hover:bg-roof-red transition-all">
               <ChevronLeft size={16} /> Back to Services
             </Link>
             <h1 className="text-5xl md:text-7xl text-white mb-4">{service.title}</h1>
@@ -55,7 +55,7 @@ export function ServiceDetail() {
           {/* Proven Process — full width */}
           <div className="bg-roof-charcoal p-12 md:p-20 text-white relative overflow-hidden">
             <Shield className="absolute top-[-20%] right-[-5%] text-white/5 w-96 h-96" />
-            <h2 className="text-4xl mb-16 relative z-10">Our Proven Process</h2>
+            <h2 className="text-4xl mb-16 relative z-10 text-white font-black uppercase tracking-tight">Our Proven Process</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 relative z-10">
               {service.process.map((p, idx) => (
                 <div key={idx} className="flex flex-col gap-4 group">
