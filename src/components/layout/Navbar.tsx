@@ -29,13 +29,12 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className={`w-8 h-8 flex items-center justify-center bg-roof-red rotate-45 transition-transform group-hover:rotate-0`}>
-              <div className="-rotate-45 font-black text-xs text-white group-hover:rotate-0 transition-transform">BPR</div>
-            </div>
-            <div className="flex flex-col leading-none">
-              <span className="font-heading font-black text-xl uppercase tracking-tighter">BEST PRICE <span className="text-roof-red">ROOFING</span></span>
-            </div>
+          <Link to="/" className="flex items-center group">
+            <img
+              src="/logo.png"
+              alt="Best Price Roofing"
+              className={`object-contain transition-all duration-300 ${isScrolled ? 'h-10' : 'h-14'}`}
+            />
           </Link>
 
           {/* Desktop Nav */}

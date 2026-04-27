@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Twitter } from 'lucide-react';
+import { Facebook } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -7,22 +7,14 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-12 border-b border-white/10 pb-20">
           <div className="col-span-1 md:col-span-1">
-             <Link to="/" className="flex items-center gap-2 mb-8 group">
-                <div className="w-8 h-8 flex items-center justify-center bg-roof-red rotate-45 group-hover:rotate-0 transition-transform">
-                  <div className="-rotate-45 font-black text-xs text-white group-hover:rotate-0 transition-transform">BPR</div>
-                </div>
-                <div className="flex flex-col leading-none">
-                  <span className="font-heading font-black text-xl uppercase tracking-tighter italic text-white">Best Price</span>
-                  <span className="text-label text-roof-red">Roofing</span>
-                </div>
+             <Link to="/" className="block mb-8">
+                <img src="/logo.png" alt="Best Price Roofing" className="h-14 object-contain" />
               </Link>
               <p className="text-stone-500 text-xs leading-relaxed mb-8 uppercase tracking-widest font-medium">
                 Professional, affordable roofing services built to withstand the unique challenges of the Louisiana climate.
               </p>
               <div className="flex gap-4">
-                <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-roof-red transition-colors"><Facebook size={18} /></a>
-                <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-roof-red transition-colors"><Instagram size={18} /></a>
-                <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-roof-red transition-colors"><Twitter size={18} /></a>
+                <a href="https://www.facebook.com/profile.php?id=61579687125916" target="_blank" rel="noopener noreferrer" className="w-10 h-10 border border-white/10 flex items-center justify-center hover:bg-roof-red transition-colors"><Facebook size={18} /></a>
               </div>
           </div>
 
