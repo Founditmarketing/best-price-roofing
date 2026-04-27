@@ -371,7 +371,7 @@ export function Home() {
                         {n: '04', t: 'Final Inspection', d: 'We dont leave until we—and you—are 100% satisfied.'},
                       ].map((step, idx) => (
                         <div key={idx} className="flex gap-6 relative">
-                           {idx < 3 && <div className="absolute top-10 left-6 bottom-[-24px] w-px bg-white/10 text-stone-900" />}
+                           {idx < 3 && <div className="absolute top-10 left-6 bottom-[-24px] w-px bg-white/10" />}
                            <div className="w-12 h-12 rounded-full border-2 border-roof-red flex items-center justify-center text-white font-black text-xs shrink-0 bg-roof-red/10 z-10">
                              {step.n}
                            </div>
