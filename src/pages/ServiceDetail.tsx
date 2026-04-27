@@ -34,13 +34,13 @@ export function ServiceDetail() {
           <div className="grid lg:grid-cols-2 gap-24 mb-24">
             {/* Service Overview */}
             <div>
-              <h2 className="text-4xl mb-8 border-b-2 border-stone-100 pb-4 inline-block">Service Overview</h2>
+              <h2 className="text-4xl mb-8 border-b-2 border-stone-100 pb-4 inline-block text-stone-900">Service Overview</h2>
               <p className="text-stone-600 text-lg leading-relaxed">{service.fullDescription}</p>
             </div>
 
             {/* Why It Matters */}
             <div>
-              <h2 className="text-4xl mb-8">Why It Matters</h2>
+              <h2 className="text-4xl mb-8 text-stone-900">Why It Matters</h2>
               <div className="grid gap-4">
                 {service.benefits.map((benefit, i) => (
                   <div key={i} className="flex gap-4 p-5 bg-stone-50 border border-stone-100">

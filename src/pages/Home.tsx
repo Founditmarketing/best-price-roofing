@@ -201,7 +201,7 @@ export function Home() {
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16 relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-24">
             <div className="max-w-2xl">
-              <h2 className="text-4xl md:text-5xl mb-4">Precision <span className="text-roof-red font-black italic">Workmanship.</span></h2>
+              <h2 className="text-4xl md:text-5xl mb-4 text-stone-900">Precision <span className="text-roof-red font-black italic">Workmanship.</span></h2>
               <p className="text-stone-500 text-lg">Every project we take on is treated with the same level of focus, whether it's a simple repair or a multi-million dollar installation.</p>
             </div>
             <Link to="/services" className="px-6 py-3 border-2 border-roof-charcoal text-roof-charcoal font-black uppercase text-xs tracking-[0.2em] hover:bg-roof-charcoal hover:text-white transition-all">
@@ -225,7 +225,7 @@ export function Home() {
                   {s.id === 'shingles' && <Shield size={24} />}
                   {s.id === 'insurance' && <ClipboardCheck size={24} />}
                 </div>
-                <h4 className="text-xl mb-3">{s.title}</h4>
+                <h4 className="text-xl mb-3 text-stone-900">{s.title}</h4>
                 <p className="text-stone-500 text-sm mb-6 leading-relaxed">{s.shortDescription}</p>
                 <Link to={`/services/${s.id}`} className="text-xs font-black uppercase tracking-widest text-stone-400 group-hover:text-roof-red flex items-center gap-2">
                   View Detail <ChevronRight size={14} />
@@ -294,7 +294,7 @@ export function Home() {
          <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
             <div className="mb-28 text-center">
                <div className="text-label text-roof-red mb-4 uppercase tracking-[0.3em]">Knowledge Base</div>
-               <h2 className="text-5xl md:text-7xl font-black italic uppercase tracking-tighter">Field Intelligence</h2>
+               <h2 className="text-5xl md:text-7xl font-black italic uppercase tracking-tighter text-stone-900">Field Intelligence</h2>
             </div>
             
             <div className="grid md:grid-cols-2 gap-16 lg:gap-32">
@@ -320,14 +320,14 @@ export function Home() {
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
            <div className="grid lg:grid-cols-2 gap-28 items-center">
               <div>
-                <h2 className="text-4xl md:text-5xl mb-8 font-black uppercase tracking-tighter italic">Why Alexandria Trusts <span className="text-roof-red">The Best.</span></h2>
+                <h2 className="text-4xl md:text-5xl mb-8 font-black uppercase tracking-tighter italic text-stone-900">Why Alexandria Trusts <span className="text-roof-red">The Best.</span></h2>
                 <div className="grid gap-8">
                    <div className="flex gap-6">
                       <div className="w-14 h-14 shrink-0 bg-stone-100 flex items-center justify-center rounded-lg text-roof-red">
                         <ShieldCheck size={28} />
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold mb-2 uppercase tracking-tight">Uncompromising Safety</h4>
+                        <h4 className="text-xl font-bold mb-2 uppercase tracking-tight text-stone-900">Uncompromising Safety</h4>
                         <p className="text-stone-500 text-sm leading-relaxed">We maintain strict safety protocols on every job site, ensuring our crew and your family are protected throughout the build.</p>
                       </div>
                    </div>
@@ -336,7 +336,7 @@ export function Home() {
                         <Award size={28} />
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold mb-2 uppercase tracking-tight">Manufacturer Certified</h4>
+                        <h4 className="text-xl font-bold mb-2 uppercase tracking-tight text-stone-900">Manufacturer Certified</h4>
                         <p className="text-stone-500 text-sm leading-relaxed">Our certification with top brands means you get enhanced warranties that standard contractors can't offer.</p>
                       </div>
                    </div>
@@ -345,7 +345,7 @@ export function Home() {
                         <Clock size={28} />
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold mb-2 uppercase tracking-tight">Transparent Timelines</h4>
+                        <h4 className="text-xl font-bold mb-2 uppercase tracking-tight text-stone-900">Transparent Timelines</h4>
                         <p className="text-stone-500 text-sm leading-relaxed">No guessing games. You'll know exactly when we start, how long it will take, and when we'll be out of your hair.</p>
                       </div>
                    </div>
