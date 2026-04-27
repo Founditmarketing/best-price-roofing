@@ -91,10 +91,10 @@ export function Home() {
         {/* Bottom Teaser Row (Grid) */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-roof-charcoal border-t border-white/10">
           {[
-            { n: '01', l: 'Heritage', t: 'About Us', d: 'Family-owned service with depth. We treat every home like it\'s our own.', p: '/about', b: 'Explore Story' },
-            { n: '02', l: 'Solutions', t: 'Services', d: 'From shingle replacements to full commercial installs and insurance help.', p: '/services', b: 'View Details' },
-            { n: '03', l: 'Protocol', t: 'Insurance', d: 'Navigate the complex landscape of storm claims with our specialized insurance experts.', p: '/services/insurance-claim-assistance', b: 'Claims Help', special: true },
-            { n: '04', l: 'Portfolio', t: 'Gallery', d: 'Browse our masonry-style portfolio of high-impact shingle installations.', p: '/gallery', b: 'View Projects' },
+            { n: '01', l: 'Installations', t: 'Roof Install', d: 'Full replacements and new construction installs using premium Owens Corning and Atlas materials.', p: '/services/installations', b: 'View Service' },
+            { n: '02', l: 'Repair', t: 'Roof Repair', d: 'Fast, honest fixes for leaks, missing shingles, and storm damage — no unnecessary upsells.', p: '/services/repair', b: 'View Service' },
+            { n: '03', l: 'Shingles', t: 'Premium Shingles', d: 'Owens Corning Duration and Atlas Pinnacle Pristine with Scotchgard algae protection.', p: '/services/shingles', b: 'View Service' },
+            { n: '04', l: 'Insurance', t: 'Claim Assistance', d: 'We meet adjusters on-site and handle the documentation so you get the coverage you deserve.', p: '/services/insurance', b: 'Claims Help', special: true },
           ].map((teaser, i) => (
             <Link 
               key={teaser.n} 
