@@ -94,9 +94,11 @@ export function About() {
               <div className="grid grid-cols-2 gap-4">
                  {[
                    "/images/Untitled-design-3.png",
-                   "/images/Untitled-design-2.png"
+                   "/images/Untitled-design-2.png",
+                   "/images/Untitled-design-16-scaled.png",
+                   "/images/IMG_3716-scaled.jpg"
                  ].map((img, i) => (
-                   <div key={i} className={`h-64 md:h-80 overflow-hidden grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-700 ${i % 2 !== 0 ? 'translate-y-12' : ''}`}>
+                   <div key={i} className={`h-52 md:h-64 overflow-hidden grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-700 ${i % 2 !== 0 ? 'translate-y-6' : ''}`}>
                       <img src={img} alt="Local project" className="w-full h-full object-cover" />
                    </div>
                  ))}

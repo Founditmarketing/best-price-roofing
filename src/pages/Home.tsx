@@ -166,7 +166,24 @@ export function Home() {
         </div>
       </section>
 
-      {/* Services Overview Mini Cards */}
+      {/* Full-bleed Photo Strip */}
+      <div className="w-full overflow-hidden flex gap-1 border-y border-white/5">
+        {[
+          "/images/IMG_3704.png",
+          "/images/Untitled-design-9.png",
+          "/images/Untitled-design-16-scaled.png",
+          "/images/Untitled-design-11.png",
+          "/images/IMG_3716-scaled.jpg",
+          "/images/Untitled-design-14.png",
+          "/images/Screenshot-2026-03-05-at-10.48.38-AM.png",
+          "/images/Untitled-design-22.png",
+        ].map((src, i) => (
+          <div key={i} className="flex-1 h-64 overflow-hidden group shrink-0 min-w-[120px]">
+            <img src={src} alt={`Project ${i+1}`} className="w-full h-full object-cover grayscale hover:grayscale-0 scale-105 hover:scale-110 transition-all duration-700" />
+          </div>
+        ))}
+      </div>
+
       <section className="py-40 bg-white relative overflow-hidden">
         <div className="shingle-texture absolute inset-0 pointer-events-none" />
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16 relative z-10">

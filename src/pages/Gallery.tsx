@@ -68,7 +68,7 @@ export function Gallery() {
           ))}
         </div>
 
-        {/* Industrial Stats & Capabilities */}
+        {/* Industrial Stats */}
         <div className="grid md:grid-cols-4 gap-px bg-white/5 border border-white/5 mb-40">
            {[
              { l: 'Residential Units', v: '1,200+', s: 'Completed Parish-wide' },
@@ -84,7 +84,19 @@ export function Gallery() {
            ))}
         </div>
 
-        {/* Technical Deep Dive / Case Study Teaser */}
+        {/* Horizontal photo strip */}
+        <div className="mb-40 border-t border-white/10 pt-20">
+          <div className="text-label text-stone-500 mb-12 uppercase tracking-widest font-black">More From The Field</div>
+          <div className="flex gap-6 overflow-x-auto pb-6 scrollbar-none">
+            {STRIP_PHOTOS.map((src, i) => (
+              <div key={i} className="shrink-0 w-80 h-56 overflow-hidden border border-white/5 group">
+                <img src={src} alt={`Field photo ${i+1}`} className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Case Study */}
         <div className="grid lg:grid-cols-2 gap-28 items-center py-44 border-t border-white/10">
            <div>
               <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Project Breakdown 4.02</div>
@@ -102,7 +114,7 @@ export function Gallery() {
                    'Zero-Debris Cleanup Guarantee'
                  ].map((feat, i) => (
                    <div key={i} className="flex items-center gap-4 text-xs font-black uppercase tracking-widest text-stone-500">
-                      <div className="w-2 h-2 bg-roof-red" />
+                      <div className="w-2 h-2 bg-roof-red shrink-0" />
                       {feat}
                    </div>
                  ))}
@@ -111,8 +123,8 @@ export function Gallery() {
            <div className="bg-roof-surface p-1 border border-white/10 group overflow-hidden">
               <div className="relative aspect-square overflow-hidden">
                  <img 
-                   src="/images/Untitled-design-12.png"
-                    alt="Shingle installation detail" 
+                   src="/images/Untitled-design-16-scaled.png"
+                    alt="Storm repair site detail" 
                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 grayscale opacity-40 group-hover:grayscale-0 group-hover:opacity-100" 
                  />
                  <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
