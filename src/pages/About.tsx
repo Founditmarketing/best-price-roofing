@@ -16,7 +16,7 @@ export function About() {
         {/* Hero Section */}
         <div className="grid lg:grid-cols-2 gap-28 items-center mb-44">
           <motion.div {...fadeInUp}>
-            <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Established 2012</div>
+            <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Alexandria, Louisiana</div>
             <h1 className="text-[48px] md:text-[68px] text-white mb-10 leading-[0.95]">
               Roots In <br/>Louisiana <span className="text-stone-500 italic">Workmanship.</span>
             </h1>
@@ -44,9 +44,9 @@ export function About() {
              />
              <div className="glass-panel absolute -bottom-8 left-0 right-0 mx-4 p-8 hidden lg:block">
                 <p className="text-xs text-white leading-relaxed italic uppercase font-bold">
-                  "Honest pricing isn't just a slogan—it's how we sleep at night. We're part of this community, and we build like it."
+                  "We believe every home deserves reliable protection at a fair price. From new installs to storm repairs, we treat every customer like family."
                 </p>
-                <div className="mt-4 text-[10px] font-black text-roof-red tracking-[0.2em]">CEO, Best Price Roofing</div>
+                <div className="mt-4 text-[10px] font-black text-roof-red tracking-[0.2em]">Best Price Roofing — Alexandria, LA</div>
              </div>
           </motion.div>
         </div>
@@ -82,8 +82,8 @@ export function About() {
                  </p>
                  <div className="grid grid-cols-2 gap-6 bg-white/5 p-8 border-l-2 border-roof-red text-stone-900">
                     <div>
-                       <div className="text-[10px] font-black text-stone-400 uppercase mb-2">Sponsorships</div>
-                       <p className="text-xs text-white uppercase font-bold italic">Local Youth Baseball • Cenla Food Bank</p>
+                       <div className="text-[10px] font-black text-stone-400 uppercase mb-2">Service Area</div>
+                       <p className="text-xs text-white uppercase font-bold italic">Alexandria • Pineville • Rapides Parish</p>
                     </div>
                     <div>
                        <div className="text-[10px] font-black text-stone-400 uppercase mb-2">Location Hub</div>
@@ -116,9 +116,9 @@ export function About() {
               </p>
               <div className="flex flex-wrap justify-center gap-10">
                  {[
-                   { l: 'Owens Corning Preferred', s: 'Verified' },
-                   { l: 'General Liability', s: '$2M Coverage' },
-                   { l: 'Worker Comp', s: 'Fully Bonded' },
+                   { l: 'Owens Corning Trusted', s: 'Materials Partner' },
+                   { l: 'General Liability', s: 'Fully Insured' },
+                   { l: 'Licensed & Insured', s: 'Louisiana State' },
                  ].map((stat, i) => (
                    <div key={i} className="text-center">
                       <div className="text-[9px] font-black uppercase text-roof-red mb-2 tracking-widest">{stat.s}</div>

@@ -37,12 +37,12 @@ export function Contact() {
 
                       <div className="group">
                          <div className="text-[9px] font-black uppercase text-stone-400 mb-2 tracking-widest">Data Transmission</div>
-                         <div className="text-2xl font-bold tracking-tight">quotes@bestpriceroof.com</div>
+                         <div className="text-2xl font-bold tracking-tight">james@bestpriceroofing.net</div>
                       </div>
 
                       <div className="group">
                          <div className="text-[9px] font-black uppercase text-stone-400 mb-2 tracking-widest">Strategic Radius</div>
-                         <div className="text-xl font-bold text-stone-300">Central Louisiana / Alexandria Hub</div>
+                         <div className="text-xl font-bold text-stone-300">217 Brevard Ct, Alexandria, LA 71303</div>
                          <div className="text-[10px] text-stone-400 mt-1 uppercase leading-tight font-medium">Alexandria • Pineville • Woodworth • Ball • Boyce</div>
                       </div>
                    </div>
@@ -52,11 +52,11 @@ export function Contact() {
                    <div className="grid grid-cols-2 gap-8">
                       <div>
                          <div className="text-[8px] font-black uppercase text-stone-600 mb-2">Shift Schedule</div>
-                         <div className="text-sm font-black italic uppercase">Mon-Sat / 0700-1900</div>
+                         <div className="text-sm font-black italic uppercase">Call For Availability</div>
                       </div>
                       <div>
                          <div className="text-[8px] font-black uppercase text-stone-600 mb-2">License Ref</div>
-                         <div className="text-xs font-black uppercase opacity-60">Fully Insured / LA #00000</div>
+                         <div className="text-xs font-black uppercase opacity-60">Fully Insured / Licensed & Insured</div>
                       </div>
                    </div>
                 </div>

@@ -99,10 +99,10 @@ export function Gallery() {
         {/* Stats Bar */}
         <div className="grid md:grid-cols-4 gap-px bg-white/5 border border-white/5 mb-40 text-stone-900">
           {[
-            { l: 'Residential Units', v: '1,200+', s: 'Completed Parish-wide' },
-            { l: 'Commercial Sq Ft',  v: '450k',   s: 'Flat Roof Specialist' },
+            { l: 'Google Rating', v: '5.0 ★', s: '19 Verified Reviews' },
+            { l: 'Service Area', v: 'Cenla', s: 'Alexandria & Surrounding Parishes' },
             { l: 'Storm Response',    v: '24/7',    s: 'Rapid Tarping Active' },
-            { l: 'Safety Rating',     v: 'Perfect', s: 'Zero Site Incidents' },
+            { l: 'Materials', v: 'OC + Atlas', s: 'Owens Corning & Atlas Pinnacle' },
           ].map((stat, i) => (
             <div key={i} className="bg-black p-10">
               <div className="text-[10px] font-black text-stone-400 uppercase tracking-widest mb-4">{stat.l}</div>
