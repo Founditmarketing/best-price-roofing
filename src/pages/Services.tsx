@@ -40,7 +40,7 @@ export function Services() {
                   <img 
                     src={service.image} 
                     alt={service.title} 
-                    className="w-full h-full object-cover grayscale group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700" 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" 
                   />
                   <div className="absolute inset-0 bg-roof-charcoal/40 group-hover:bg-transparent transition-colors" />
                </div>

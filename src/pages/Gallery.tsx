@@ -124,7 +124,7 @@ export function Gallery() {
           <div className="flex gap-6 overflow-x-auto pb-6 scrollbar-hide">
             {STRIP_PHOTOS.map((src, i) => (
               <div key={i} className="shrink-0 w-80 h-56 overflow-hidden border border-white/5 group">
-                <img src={src} alt={`Field photo ${i + 1}`} className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" />
+                <img src={src} alt={`Field photo ${i + 1}`} className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" />
               </div>
             ))}
           </div>

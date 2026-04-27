@@ -98,7 +98,7 @@ export function About() {
                    "/images/Untitled-design-16-scaled.png",
                    "/images/IMG_3716-scaled.jpg"
                  ].map((img, i) => (
-                   <div key={i} className={`h-52 md:h-64 overflow-hidden grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-700 ${i % 2 !== 0 ? 'translate-y-6' : ''}`}>
+                   <div key={i} className={`h-52 md:h-64 overflow-hidden opacity-80 hover:opacity-100 transition-all duration-700 ${i % 2 !== 0 ? 'translate-y-6' : ''}`}>
                       <img src={img} alt="Local project" className="w-full h-full object-cover" />
                    </div>
                  ))}

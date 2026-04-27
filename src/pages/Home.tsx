@@ -58,7 +58,7 @@ export function Home() {
               <div className="flex flex-col sm:flex-row gap-6">
                 <Link 
                   to="/contact" 
-                  className="px-10 py-5 bg-white text-black font-black uppercase text-xs tracking-widest hover:bg-roof-orange hover:text-white transition-all shadow-2xl hover:scale-105"
+                  className="px-10 py-5 bg-white text-black font-black uppercase text-xs tracking-widest hover:bg-roof-orange hover:text-white transition-colors shadow-2xl"
                 >
                   Get Your Free Quote Today
                 </Link>
@@ -196,7 +196,7 @@ export function Home() {
           "/images/Untitled-design-22.png",
         ].map((src, i) => (
           <div key={i} className="flex-1 h-64 overflow-hidden group shrink-0 min-w-[120px]">
-            <img src={src} alt={`Project ${i+1}`} className="w-full h-full object-cover grayscale hover:grayscale-0 scale-105 hover:scale-110 transition-all duration-700" />
+            <img src={src} alt={`Project ${i+1}`} className="w-full h-full object-cover scale-105 hover:scale-110 transition-all duration-700" />
           </div>
         ))}
       </div>
@@ -250,7 +250,7 @@ export function Home() {
                   <img 
                     src="/images/Untitled-design-7.png"
                     alt="Best Price Roofing crew on site"
-                    className="relative z-10 w-full object-cover object-center grayscale group-hover:grayscale-0 transition-all duration-700 shadow-2xl"
+                    className="relative z-10 w-full object-cover object-center transition-all duration-700 shadow-2xl"
                   />
                   <div className="absolute bottom-10 right-10 z-20 bg-roof-red p-6 text-white max-w-xs shadow-2xl skew-x-[-12deg]">
                      <div className="skew-x-[12deg]">
@@ -389,33 +389,33 @@ export function Home() {
       </section>
 
       {/* Main CTA Form Section */}
-      <section className="py-44 bg-stone-900 relative overflow-hidden">
-        <img src="/images/Untitled-design-7.png" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover grayscale opacity-15 pointer-events-none" />
-        <div className="absolute inset-0 bg-linear-to-b from-stone-900/70 via-stone-900/85 to-stone-900/95 pointer-events-none" />
-         <div className="max-w-5xl mx-auto px-6 sm:px-12 text-center">
+      <section className="py-44 bg-stone-800 relative overflow-hidden">
+        <img src="/images/Untitled-design-7.png" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover grayscale opacity-10 pointer-events-none" />
+        <div className="absolute inset-0 bg-linear-to-b from-stone-800/50 via-stone-800/70 to-stone-800/85 pointer-events-none" />
+         <div className="max-w-5xl mx-auto px-6 sm:px-12 text-center relative z-10">
             <h2 className="text-5xl md:text-7xl mb-8 text-white font-black uppercase italic tracking-tighter leading-none">Ready for a <br/><span className="text-roof-red">Solid</span> Roof?</h2>
-            <p className="text-stone-400 text-lg mb-12 uppercase tracking-widest font-black text-[10px]">Schedule your free, zero-pressure inspection today.</p>
-            <div className="bg-roof-charcoal p-8 md:p-16 rounded shadow-2xl border border-white/5">
+            <p className="text-stone-300 text-base mb-12 uppercase tracking-widest font-black">Schedule your free, zero-pressure inspection today.</p>
+            <div className="bg-roof-surface p-8 md:p-16 rounded shadow-2xl border border-white/10">
                <form className="grid md:grid-cols-2 gap-8 text-left">
                   <div className="space-y-3">
-                    <label className="text-[9px] font-black uppercase tracking-[0.2em] text-stone-400">FullName</label>
-                    <input type="text" placeholder="John Doe" className="w-full px-0 py-3 bg-transparent border-b border-white/20 text-white focus:outline-none focus:border-roof-red transition-all font-bold text-lg" />
+                    <label className="text-xs font-black uppercase tracking-[0.2em] text-stone-300">Full Name</label>
+                    <input type="text" placeholder="John Doe" className="w-full px-0 py-3 bg-transparent border-b border-white/30 text-white placeholder:text-stone-600 focus:outline-none focus:border-roof-red transition-all font-bold text-lg" />
                   </div>
                   <div className="space-y-3">
-                    <label className="text-[9px] font-black uppercase tracking-[0.2em] text-stone-400">Phone</label>
-                    <input type="tel" placeholder="318-000-0000" className="w-full px-0 py-3 bg-transparent border-b border-white/20 text-white focus:outline-none focus:border-roof-red transition-all font-mono text-lg" />
+                    <label className="text-xs font-black uppercase tracking-[0.2em] text-stone-300">Phone</label>
+                    <input type="tel" placeholder="318-000-0000" className="w-full px-0 py-3 bg-transparent border-b border-white/30 text-white placeholder:text-stone-600 focus:outline-none focus:border-roof-red transition-all font-mono text-lg" />
                   </div>
                   <div className="md:col-span-2 space-y-3">
-                    <label className="text-[9px] font-black uppercase tracking-[0.2em] text-stone-400">Requirements</label>
-                    <textarea rows={3} placeholder="Brief details about your property..." className="w-full px-0 py-3 bg-transparent border-b border-white/20 text-white focus:outline-none focus:border-roof-red transition-all font-medium text-stone-300" />
+                    <label className="text-xs font-black uppercase tracking-[0.2em] text-stone-300">Details</label>
+                    <textarea rows={3} placeholder="Brief details about your property..." className="w-full px-0 py-3 bg-transparent border-b border-white/30 text-white placeholder:text-stone-600 focus:outline-none focus:border-roof-red transition-all font-medium" />
                   </div>
                   <div className="md:col-span-2 mt-8">
-                    <button className="w-full bg-white text-black py-6 font-black uppercase text-xs tracking-[0.4em] hover:bg-roof-red hover:text-white transition-all shadow-[0_0_30px_rgba(255,255,255,0.1)]">
-                      Transmit Data Request
+                    <button className="w-full bg-roof-red text-white py-6 font-black uppercase text-xs tracking-[0.4em] hover:bg-white hover:text-black transition-all shadow-2xl">
+                      Get My Free Inspection
                     </button>
-                    <div className="flex items-center justify-center gap-4 mt-8 opacity-40 grayscale group cursor-default">
-                       <ShieldCheck size={20} className="text-white" />
-                       <span className="text-[8px] font-black uppercase tracking-widest text-white">Full Privacy Protection Active</span>
+                    <div className="flex items-center justify-center gap-4 mt-8 opacity-50">
+                       <ShieldCheck size={16} className="text-stone-400" />
+                       <span className="text-[9px] font-black uppercase tracking-widest text-stone-400">No spam. No obligation. 100% free.</span>
                     </div>
                   </div>
                </form>
