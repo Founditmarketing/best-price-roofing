@@ -1,0 +1,12 @@
+{
+  "name": "Best Price Roofing",
+  "description": "Premium, affordable roofing services in Louisiana. Specializing in new installations, repairs, and insurance claim assistance with a focus on storm resilience.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Multi-page architecture",
+    "Interactive Storm Resilience Simulator",
+    "Lead generation contact system"
+  ]
+}
