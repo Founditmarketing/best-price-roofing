@@ -134,35 +134,47 @@ export function Home() {
         </div>
       </div>
 
-      {/* Testimonials Marquee Style */}
+      {/* Testimonials Marquee */}
       <section className="py-36 bg-stone-950 overflow-hidden">
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 mb-20">
           <div className="text-label text-roof-red mb-4 uppercase tracking-[0.2em]">Voice of the Parish</div>
           <h2 className="text-4xl text-white font-black italic uppercase tracking-tighter">Verified Field Reports</h2>
         </div>
-        <div className="flex gap-8 px-4 animate-scroll">
-          {[
-            { n: 'James R.', l: 'Alexandria', t: 'Storm Damage', c: 'Professional from start to finish. They handled the insurance company and got us a premium roof for just our deductible.' },
-            { n: 'Sarah M.', l: 'Pineville', t: 'Full Replacement', c: 'The Best Price Roofing team was fast, clean, and honest. No hidden fees like the other quotes we got.' },
-            { n: 'David L.', l: 'Woodworth', t: 'Commercial Flat Roof', c: 'Industrial expertise that you usually don\'t find in smaller companies. Highly recommended for business owners.' },
-            { n: 'James R.', l: 'Alexandria', t: 'Storm Damage', c: 'Professional from start to finish. They handled the insurance company and got us a premium roof for just our deductible.' },
-          ].map((review, i) => (
-            <div key={i} className="min-w-[440px] bg-roof-surface p-12 border border-white/5">
-              <div className="flex gap-1 mb-6 text-roof-red">
-                 {[...Array(5)].map((_, j) => <Star key={j} size={14} fill="currentColor" />)}
-              </div>
-              <p className="text-stone-300 italic mb-8 leading-relaxed">"{review.c}"</p>
-              <div className="flex items-center gap-4">
-                <div className="w-10 h-10 bg-roof-red rounded-full flex items-center justify-center font-black text-xs text-white">
-                  {review.n[0]}
+        {/* Marquee track — two identical sets for seamless loop */}
+        <div className="relative overflow-hidden">
+          <div className="flex gap-8 w-max marquee-track">
+            {[
+              { n: 'James R.',   l: 'Alexandria', t: 'Storm Damage',       c: 'Professional from start to finish. They handled the insurance company and got us a premium roof for just our deductible.' },
+              { n: 'Sarah M.',   l: 'Pineville',  t: 'Full Replacement',   c: 'The Best Price Roofing team was fast, clean, and honest. No hidden fees like the other quotes we got.' },
+              { n: 'David L.',   l: 'Woodworth',  t: 'Commercial Flat Roof', c: 'Industrial expertise that you usually don\'t find in smaller companies. Highly recommended for business owners.' },
+              { n: 'Monica T.', l: 'Ball, LA',    t: 'Shingle Upgrade',    c: 'They came out the day after the storm and had everything tarped within hours. Roof was done in two days. Incredible.' },
+              { n: 'Chris P.',  l: 'Boyce',       t: 'Insurance Claim',    c: 'Best Price Roofing fought the insurance adjuster on our behalf. We got a full replacement instead of a patch job.' },
+              { n: 'Angela B.', l: 'Pineville',   t: 'Full Replacement',   c: 'Zero pressure, zero hidden fees. They told me exactly what needed to be done and did it for the exact price quoted.' },
+              // Duplicate set for seamless loop
+              { n: 'James R.',   l: 'Alexandria', t: 'Storm Damage',       c: 'Professional from start to finish. They handled the insurance company and got us a premium roof for just our deductible.' },
+              { n: 'Sarah M.',   l: 'Pineville',  t: 'Full Replacement',   c: 'The Best Price Roofing team was fast, clean, and honest. No hidden fees like the other quotes we got.' },
+              { n: 'David L.',   l: 'Woodworth',  t: 'Commercial Flat Roof', c: 'Industrial expertise that you usually don\'t find in smaller companies. Highly recommended for business owners.' },
+              { n: 'Monica T.', l: 'Ball, LA',    t: 'Shingle Upgrade',    c: 'They came out the day after the storm and had everything tarped within hours. Roof was done in two days. Incredible.' },
+              { n: 'Chris P.',  l: 'Boyce',       t: 'Insurance Claim',    c: 'Best Price Roofing fought the insurance adjuster on our behalf. We got a full replacement instead of a patch job.' },
+              { n: 'Angela B.', l: 'Pineville',   t: 'Full Replacement',   c: 'Zero pressure, zero hidden fees. They told me exactly what needed to be done and did it for the exact price quoted.' },
+            ].map((review, i) => (
+              <div key={i} className="min-w-[440px] bg-roof-surface p-12 border border-white/5 shrink-0">
+                <div className="flex gap-1 mb-6 text-roof-red">
+                   {[...Array(5)].map((_, j) => <Star key={j} size={14} fill="currentColor" />)}
                 </div>
-                <div>
-                   <div className="text-sm font-black text-white uppercase">{review.n}</div>
-                   <div className="text-[10px] text-stone-500 font-mono uppercase tracking-widest">{review.l} • {review.t}</div>
+                <p className="text-stone-300 italic mb-8 leading-relaxed">"{review.c}"</p>
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 bg-roof-red rounded-full flex items-center justify-center font-black text-xs text-white">
+                    {review.n[0]}
+                  </div>
+                  <div>
+                     <div className="text-sm font-black text-white uppercase">{review.n}</div>
+                     <div className="text-[10px] text-stone-400 font-mono uppercase tracking-widest">{review.l} • {review.t}</div>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
 
