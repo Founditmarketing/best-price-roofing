@@ -62,12 +62,7 @@ export function Home() {
                 >
                   Get Your Free Quote Today
                 </Link>
-                <div className="flex items-center gap-4 group cursor-pointer">
-                  <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center group-hover:border-roof-red group-hover:bg-roof-red transition-all">
-                    <div className="w-0 h-0 border-t-[6px] border-t-transparent border-l-[10px] border-l-white border-b-[6px] border-b-transparent ml-1" />
-                  </div>
-                  <span className="text-label">Watch Our Process</span>
-                </div>
+
               </div>
             </motion.div>
           </div>
@@ -83,7 +78,7 @@ export function Home() {
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-label text-stone-500">Lead Time</span>
-                  <span className="text-xs font-mono text-white">Fast Turnaround</span>
+                  <span className="text-xs font-mono text-white">Free Inspection</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-label text-stone-500">Expertise</span>
@@ -348,8 +343,8 @@ export function Home() {
                         <Award size={28} />
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold mb-2 uppercase tracking-tight text-stone-900">Manufacturer Certified</h4>
-                        <p className="text-stone-500 text-sm leading-relaxed">Our certification with top brands means you get enhanced warranties that standard contractors can't offer.</p>
+                        <h4 className="text-xl font-bold mb-2 uppercase tracking-tight text-stone-900">Licensed & Insured</h4>
+                        <p className="text-stone-500 text-sm leading-relaxed">Fully licensed and insured in Louisiana, giving you confidence that your home is in trusted hands on every job.</p>
                       </div>
                    </div>
                    <div className="flex gap-6">

@@ -112,11 +112,11 @@ export function About() {
            <div className="relative z-10 text-center max-w-3xl mx-auto">
               <h3 className="text-3xl text-white mb-10 italic uppercase tracking-tighter font-black">The "Best Price" Logic</h3>
               <p className="text-stone-400 text-sm md:text-base leading-relaxed mb-12 italic">
-                We believe in a "Masterful Minimum" approach. By cutting out sales commission and heavy corporate overhead, we can afford to put higher-grade materials on your home for the same price the other guys charge for standard shingles. It's not a secret; it's just better business.
+                We believe every home deserves reliable protection at a fair price. By focusing on honest pricing and quality materials, we deliver lasting results without the runaround — no hidden fees, no pushy sales.
               </p>
               <div className="flex flex-wrap justify-center gap-10">
                  {[
-                   { l: 'Owens Corning Trusted', s: 'Materials Partner' },
+                   { l: 'Owens Corning & Atlas', s: 'Trusted Materials' },
                    { l: 'General Liability', s: 'Fully Insured' },
                    { l: 'Licensed & Insured', s: 'Louisiana State' },
                  ].map((stat, i) => (
