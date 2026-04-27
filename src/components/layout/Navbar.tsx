@@ -89,8 +89,8 @@ export function Navbar() {
           </div>
 
           {/* Mobile Toggle */}
-          <button className="lg:hidden text-current" onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <X /> : <Menu />}
+          <button className="lg:hidden text-white p-2 -mr-2" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
       </div>

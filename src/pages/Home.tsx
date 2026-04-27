@@ -39,7 +39,7 @@ export function Home() {
           </div>
 
           {/* Content Left */}
-          <div className="col-span-12 lg:col-span-8 z-10 px-6 sm:px-10 lg:px-20 flex flex-col justify-center py-12">
+          <div className="col-span-12 lg:col-span-8 z-10 px-5 sm:px-10 lg:px-20 flex flex-col justify-center py-10">
             <motion.div 
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
@@ -48,7 +48,7 @@ export function Home() {
               <div className="inline-block px-3 py-1 bg-roof-red text-[10px] font-black uppercase tracking-[0.3em] mb-8 w-fit">
                 Louisiana's Storm-Ready Experts
               </div>
-              <h1 className="text-[56px] sm:text-[80px] lg:text-[110px] text-white leading-[0.85] mb-8">
+              <h1 className="text-[38px] sm:text-[60px] lg:text-[110px] text-white leading-[0.9] mb-8">
                 Protect What <br/>Matters <span className="text-transparent bg-clip-text bg-linear-to-b from-stone-200 to-stone-500">Most.</span>
               </h1>
               <p className="text-lg md:text-xl text-stone-400 max-w-xl font-medium leading-relaxed mb-10">
@@ -99,7 +99,7 @@ export function Home() {
             <Link 
               key={teaser.n} 
               to={teaser.p}
-              className={`p-10 border-r border-white/10 border-b lg:border-b-0 flex flex-col group transition-all duration-500 ${teaser.special ? 'bg-roof-red/10 border-b-4 border-b-roof-red' : 'hover:bg-roof-surface'}`}
+              className={`p-6 md:p-10 border-r border-white/10 border-b lg:border-b-0 flex flex-col group transition-all duration-500 ${teaser.special ? 'bg-roof-red/10 border-b-4 border-b-roof-red' : 'hover:bg-roof-surface'}`}
             >
               <div className="flex items-center gap-2 mb-4">
                 <span className={`text-label ${teaser.special ? 'text-roof-red' : 'text-roof-red'}`}>{teaser.n} — {teaser.l}</span>
@@ -163,7 +163,7 @@ export function Home() {
               { n: 'Chris P.',  l: 'Boyce',       t: 'Insurance Claim',    c: 'Best Price Roofing fought the insurance adjuster on our behalf. We got a full replacement instead of a patch job.' },
               { n: 'Angela B.', l: 'Pineville',   t: 'Full Replacement',   c: 'Zero pressure, zero hidden fees. They told me exactly what needed to be done and did it for the exact price quoted.' },
             ].map((review, i) => (
-              <div key={i} className="min-w-[440px] bg-roof-surface p-12 border border-white/5 shrink-0">
+              <div key={i} className="min-w-[300px] sm:min-w-[440px] bg-roof-surface p-8 sm:p-12 border border-white/5 shrink-0">
                 <div className="flex gap-1 mb-6 text-roof-red">
                    {[...Array(5)].map((_, j) => <Star key={j} size={14} fill="currentColor" />)}
                 </div>
@@ -195,13 +195,13 @@ export function Home() {
           "/images/Screenshot-2026-03-05-at-10.48.38-AM.png",
           "/images/Untitled-design-22.png",
         ].map((src, i) => (
-          <div key={i} className="flex-1 h-64 overflow-hidden group shrink-0 min-w-[120px]">
+          <div key={i} className="flex-1 h-48 sm:h-64 overflow-hidden group shrink-0 min-w-[80px] sm:min-w-[120px]">
             <img src={src} alt={`Project ${i+1}`} className="w-full h-full object-cover scale-105 hover:scale-110 transition-all duration-700" />
           </div>
         ))}
       </div>
 
-      <section className="py-40 bg-white relative overflow-hidden text-stone-900">
+      <section className="py-20 md:py-40 bg-white relative overflow-hidden text-stone-900">
         <div className="shingle-texture absolute inset-0 pointer-events-none" />
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16 relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-24">
@@ -242,9 +242,9 @@ export function Home() {
       </section>
 
       {/* Meet the Specialist */}
-      <section className="py-44 bg-roof-charcoal">
+      <section className="py-20 md:py-44 bg-roof-charcoal">
          <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
-            <div className="grid lg:grid-cols-2 gap-28 items-center">
+            <div className="grid lg:grid-cols-2 gap-12 lg:gap-28 items-center">
                <div className="relative group">
                   <div className="absolute -inset-4 border-2 border-roof-red/20 group-hover:-inset-6 transition-all duration-700" />
                   <img 
@@ -297,14 +297,14 @@ export function Home() {
       </section>
 
       {/* Detailed Technical FAQ Section */}
-      <section className="py-44 bg-white text-stone-900">
+      <section className="py-20 md:py-20 md:py-44 bg-white text-stone-900">
          <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
             <div className="mb-28 text-center">
                <div className="text-label text-roof-red mb-4 uppercase tracking-[0.3em]">Knowledge Base</div>
                <h2 className="text-5xl md:text-7xl font-black italic uppercase tracking-tighter text-stone-900">Field Intelligence</h2>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-16 lg:gap-32">
+            <div className="grid md:grid-cols-2 gap-10 lg:gap-32">
                {[
                  { q: 'How long does a full shingle replacement take?', a: 'Most residential jobs are completed within 24-48 hours from tear-off to cleanup. Our crews move efficiently without cutting corners on quality.' },
                  { q: 'Will my insurance cover a 20-year-old roof?', a: 'If there is verifiable storm damage (wind/hail), most policies cover replacement cost rather than actual cash value. We provide the detailed damage documentation your adjuster needs to verify the claim.' },
@@ -323,9 +323,9 @@ export function Home() {
       </section>
 
       {/* Why Choose Us & Process */}
-      <section className="py-44 bg-white text-stone-900">
+      <section className="py-20 md:py-20 md:py-44 bg-white text-stone-900">
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
-           <div className="grid lg:grid-cols-2 gap-28 items-center">
+           <div className="grid lg:grid-cols-2 gap-12 lg:gap-28 items-center">
               <div>
                 <h2 className="text-4xl md:text-5xl mb-8 font-black uppercase tracking-tighter italic text-stone-900">Why Alexandria Trusts <span className="text-roof-red">The Best.</span></h2>
                 <div className="grid gap-8">
@@ -389,13 +389,13 @@ export function Home() {
       </section>
 
       {/* Main CTA Form Section */}
-      <section className="py-44 bg-stone-800 relative overflow-hidden">
+      <section className="py-20 md:py-44 bg-stone-800 relative overflow-hidden">
         <img src="/images/Untitled-design-7.png" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover grayscale opacity-10 pointer-events-none" />
         <div className="absolute inset-0 bg-linear-to-b from-stone-800/50 via-stone-800/70 to-stone-800/85 pointer-events-none" />
          <div className="max-w-5xl mx-auto px-6 sm:px-12 text-center relative z-10">
             <h2 className="text-5xl md:text-7xl mb-8 text-white font-black uppercase italic tracking-tighter leading-none">Ready for a <br/><span className="text-roof-red">Solid</span> Roof?</h2>
             <p className="text-stone-300 text-base mb-12 uppercase tracking-widest font-black">Schedule your free, zero-pressure inspection today.</p>
-            <div className="bg-roof-surface p-8 md:p-16 rounded shadow-2xl border border-white/10">
+            <div className="bg-roof-surface p-6 md:p-16 rounded shadow-2xl border border-white/10">
                <form className="grid md:grid-cols-2 gap-8 text-left">
                   <div className="space-y-3">
                     <label className="text-xs font-black uppercase tracking-[0.2em] text-stone-300">Full Name</label>

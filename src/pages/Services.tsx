@@ -75,7 +75,7 @@ export function Services() {
         </div>
 
         {/* Industrial Capabilities Expansion */}
-        <div className="mt-40 border-t border-white/10 pt-40">
+        <div className="mt-20 md:mt-40 border-t border-white/10 pt-20 md:pt-40">
            <div className="text-label text-stone-400 mb-16 uppercase tracking-widest font-black">Industrial Division — Capability Matrix</div>
            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border border-white/5">
               {[

@@ -11,7 +11,7 @@ export function Contact() {
           className="mb-20"
         >
           <div className="text-label text-stone-400 mb-6 uppercase tracking-widest font-black">Get In Touch</div>
-          <h1 className="text-[56px] md:text-[100px] leading-none mb-8 uppercase tracking-tighter italic font-black">
+          <h1 className="text-[40px] md:text-[80px] leading-none mb-8 uppercase tracking-tighter italic font-black">
             Let's <span className="text-roof-red">Talk</span> Shop.
           </h1>
           <p className="text-xl text-stone-300 max-w-2xl font-medium leading-relaxed">
@@ -21,7 +21,7 @@ export function Contact() {
 
         <div className="grid lg:grid-cols-12 gap-px bg-white/5 border border-white/5">
           {/* Info Side */}
-          <div className="lg:col-span-5 p-12 bg-black flex flex-col justify-between">
+          <div className="lg:col-span-5 p-8 md:p-12 bg-black flex flex-col justify-between">
              <div className="space-y-16">
                 <div>
                    <div className="flex items-center gap-4 mb-6">
@@ -59,7 +59,7 @@ export function Contact() {
           </div>
 
           {/* Form Side */}
-          <div className="lg:col-span-7 bg-roof-surface/50 p-12 md:p-20 relative overflow-hidden backdrop-blur-3xl">
+          <div className="lg:col-span-7 bg-roof-surface/50 p-8 md:p-20 relative overflow-hidden backdrop-blur-3xl">
              <div className="industrial-grid absolute inset-0 opacity-5 pointer-events-none" />
              
              <div className="relative z-10 max-w-xl">

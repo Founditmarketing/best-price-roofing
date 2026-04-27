@@ -14,7 +14,7 @@ export function About() {
     <div className="bg-roof-charcoal pt-40 pb-32">
       <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
         {/* Hero Section */}
-        <div className="grid lg:grid-cols-2 gap-28 items-center mb-44">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-28 items-center mb-20 md:mb-44">
           <motion.div {...fadeInUp}>
             <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Alexandria, Louisiana</div>
             <h1 className="text-[48px] md:text-[68px] text-white mb-10 leading-[0.95]">
@@ -70,8 +70,8 @@ export function About() {
         </div>
 
         {/* Community Roots */}
-        <div className="mt-40 py-40 border-t border-white/10">
-           <div className="grid lg:grid-cols-2 gap-28 items-center">
+        <div className="mt-20 py-20 md:py-40 border-t border-white/10">
+           <div className="grid lg:grid-cols-2 gap-12 lg:gap-28 items-center">
               <div>
                  <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Cenla Commitment</div>
                  <h2 className="text-4xl md:text-6xl text-white mb-8 leading-tight italic font-black uppercase tracking-tighter">

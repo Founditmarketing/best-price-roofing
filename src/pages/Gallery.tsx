@@ -131,7 +131,7 @@ export function Gallery() {
         </div>
 
         {/* Case Study */}
-        <div className="grid lg:grid-cols-2 gap-28 items-center py-44 border-t border-white/10">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-28 items-center py-20 md:py-44 border-t border-white/10">
           <div>
             <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Project Breakdown 4.02</div>
             <h2 className="text-4xl md:text-6xl text-white mb-8 leading-tight italic font-black uppercase tracking-tighter">

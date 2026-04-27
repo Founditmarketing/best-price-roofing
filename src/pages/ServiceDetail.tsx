@@ -22,16 +22,16 @@ export function ServiceDetail() {
             <Link to="/services" className="inline-flex items-center gap-2 bg-black/60 backdrop-blur-sm text-white font-bold uppercase text-xs tracking-widest mb-6 px-4 py-2 hover:bg-roof-red transition-all">
               <ChevronLeft size={16} /> Back to Services
             </Link>
-            <h1 className="text-5xl md:text-7xl text-white mb-4">{service.title}</h1>
+            <h1 className="text-4xl md:text-7xl text-white mb-4">{service.title}</h1>
             <p className="text-stone-300 text-xl max-w-3xl">{service.shortDescription}</p>
           </div>
         </div>
       </section>
 
       {/* Main Content — full width */}
-      <section className="py-32 bg-white text-stone-900">
+      <section className="py-16 md:py-32 bg-white text-stone-900">
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
-          <div className="grid lg:grid-cols-2 gap-24 mb-24">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 mb-12 lg:mb-24">
             {/* Service Overview */}
             <div>
               <h2 className="text-4xl mb-8 border-b-2 border-stone-100 pb-4 inline-block text-stone-900">Service Overview</h2>
@@ -56,7 +56,7 @@ export function ServiceDetail() {
           <div className="bg-roof-charcoal p-12 md:p-20 text-white relative overflow-hidden">
             <Shield className="absolute top-[-20%] right-[-5%] text-white/5 w-96 h-96" />
             <h2 className="text-4xl mb-16 relative z-10 text-white font-black uppercase tracking-tight">Our Proven Process</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 relative z-10">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
               {service.process.map((p, idx) => (
                 <div key={idx} className="flex flex-col gap-4 group">
                   <div className="w-12 h-12 border border-white/20 flex items-center justify-center group-hover:bg-roof-red group-hover:border-roof-red transition-all font-black text-white text-sm">
@@ -72,7 +72,7 @@ export function ServiceDetail() {
       </section>
 
       {/* CTA Band */}
-      <section className="py-24 bg-stone-950 border-t border-white/5">
+      <section className="py-16 md:py-24 bg-stone-950 border-t border-white/5">
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -109,7 +109,7 @@ export function ServiceDetail() {
       </section>
 
       {/* Related Services */}
-      <section className="py-24 bg-roof-charcoal border-t border-white/5">
+      <section className="py-16 md:py-24 bg-roof-charcoal border-t border-white/5">
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
           <div className="text-label text-stone-400 mb-12 uppercase tracking-widest font-black">Related Services</div>
           <div className="grid md:grid-cols-3 gap-8">
