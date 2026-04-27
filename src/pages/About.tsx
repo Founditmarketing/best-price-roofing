@@ -17,7 +17,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-28 items-center mb-44">
           <motion.div {...fadeInUp}>
             <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Established 2012</div>
-            <h1 className="text-[56px] md:text-[80px] text-white mb-10 leading-[0.9]">
+            <h1 className="text-[48px] md:text-[68px] text-white mb-10 leading-[0.95]">
               Roots In <br/>Louisiana <span className="text-stone-500 italic">Workmanship.</span>
             </h1>
             <p className="text-xl text-stone-400 font-medium leading-relaxed mb-8">
@@ -42,7 +42,7 @@ export function About() {
                alt="Best Price Roofing — roof ridge and shingles" 
                className="w-full h-full object-cover object-top grayscale"
              />
-             <div className="glass-panel absolute -bottom-10 -left-10 p-10 max-w-sm hidden lg:block">
+             <div className="glass-panel absolute -bottom-8 left-0 right-0 mx-4 p-8 hidden lg:block">
                 <p className="text-xs text-white leading-relaxed italic uppercase font-bold">
                   "Honest pricing isn't just a slogan—it's how we sleep at night. We're part of this community, and we build like it."
                 </p>
