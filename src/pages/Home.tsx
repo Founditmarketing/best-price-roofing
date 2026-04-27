@@ -107,8 +107,8 @@ export function Home() {
               </div>
               <h3 className="text-2xl text-white mb-4">{teaser.t}</h3>
               <p className="text-xs text-stone-500 leading-relaxed mb-8 group-hover:text-stone-300 transition-colors">{teaser.d}</p>
-              <div className={`mt-auto text-label transition-opacity flex items-center gap-2 ${teaser.special ? 'opacity-100 text-roof-red' : 'opacity-0 group-hover:opacity-100 text-white'}`}>
-                {teaser.b} <ArrowRight size={14} />
+              <div className={`mt-auto text-label transition-opacity flex items-center gap-2 ${teaser.special ? 'opacity-100 text-white' : 'opacity-0 group-hover:opacity-100 text-white'}`}>
+                {teaser.b} <ArrowRight size={14} className={teaser.special ? 'text-roof-red' : ''} />
               </div>
             </Link>
           ))}

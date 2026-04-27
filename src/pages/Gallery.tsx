@@ -169,8 +169,9 @@ export function Gallery() {
         </div>
 
         {/* Closing CTA */}
-        <div className="text-center py-32 px-8 border border-roof-red/20 bg-roof-red/5">
-          <h3 className="text-3xl text-white mb-8 italic uppercase tracking-tighter">See Your Home In Our Next Update?</h3>
+        <div className="text-center py-32 px-8 border-t border-white/10 bg-roof-charcoal">
+          <h3 className="text-3xl text-white mb-4 italic uppercase tracking-tighter">See Your Home In Our Next Update?</h3>
+          <p className="text-stone-400 text-sm mb-10 uppercase tracking-widest">Every job we finish goes in the portfolio — yours could be next.</p>
           <Link to="/contact" className="inline-flex items-center gap-3 bg-roof-red text-white px-12 py-6 font-black uppercase text-xs tracking-[0.3em] hover:bg-white hover:text-black transition-all">
             Request Project Quote <ArrowRight size={14} />
           </Link>

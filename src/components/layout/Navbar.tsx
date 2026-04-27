@@ -64,7 +64,7 @@ export function Navbar() {
                         <Link 
                           key={service.id} 
                           to={`/services/${service.id}`}
-                          className="text-stone-400 font-bold text-[10px] uppercase tracking-wider p-2 hover:text-white hover:bg-white/5 transition-all"
+                          className="text-stone-300 font-bold text-[10px] uppercase tracking-wider p-2 hover:text-white hover:bg-white/5 transition-all"
                         >
                           {service.title}
                         </Link>
