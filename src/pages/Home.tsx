@@ -162,9 +162,9 @@ export function Home() {
               { n: 'Brandon M.',  l: 'Alexandria',  t: 'New Roof',          c: 'They did an excellent job on my new roof. Professional, explained everything up front, no surprise costs. Repairs and cleanup done as promised. Highly recommended.' },
               // Duplicate set for seamless loop
               { n: 'James R.',   l: 'Alexandria', t: 'Storm Damage',       c: 'Professional from start to finish. They handled the insurance company and got us a premium roof for just our deductible.' },
-              { n: 'Sarah M.',   l: 'Pineville',  t: 'Full Replacement',   c: 'The Best Price Roofing team was fast, clean, and honest. No hidden fees like the other quotes we got.' },
+              
               { n: 'David L.',   l: 'Woodworth',  t: 'Commercial Flat Roof', c: 'Industrial expertise that you usually don\'t find in smaller companies. Highly recommended for business owners.' },
-              { n: 'Monica T.', l: 'Ball, LA',    t: 'Shingle Upgrade',    c: 'They came out the day after the storm and had everything tarped within hours. Roof was done in two days. Incredible.' },
+              
               { n: 'Chris P.',  l: 'Boyce',       t: 'Insurance Claim',    c: 'Best Price Roofing fought the insurance adjuster on our behalf. We got a full replacement instead of a patch job.' },
               { n: 'Angela B.', l: 'Pineville',   t: 'Full Replacement',   c: 'Zero pressure, zero hidden fees. They told me exactly what needed to be done and did it for the exact price quoted.' },
             ].map((review, i) => (
@@ -312,8 +312,8 @@ export function Home() {
             <div className="grid md:grid-cols-2 gap-16 lg:gap-32">
                {[
                  { q: 'How long does a full shingle replacement take?', a: 'For a standard residential home (2,500-3,500 sq ft), we typically complete the strip-and-install within 24-48 hours. Our specialized crews move with industrial speed without sacrificing precision.' },
-                 { q: 'Will my insurance cover a 20-year-old roof?', a: 'If there is verifiable storm damage (wind/hail), most policies cover replacement cost rather than actual cash value. We provide the structural forensic evidence your adjuster needs to verify the claim.' },
-                 { q: 'What makes your shingles "Storm Ready"?', a: 'We exclusively use high-weight shingles with reinforced nail zones and enhanced adhesive strips. Our Owens Corning and Atlas lines are rated for winds up to 130 MPH.' },
+                 { q: 'Will my insurance cover a 20-year-old roof?', a: 'If there is verifiable storm damage (wind/hail), most policies cover replacement cost rather than actual cash value. We provide the detailed damage documentation your adjuster needs to verify the claim.' },
+                 { q: 'What makes your shingles "Storm Ready"?', a: 'We exclusively use high-weight shingles with reinforced nail zones and enhanced adhesive strips. Our Owens Corning and Atlas lines are engineered for high-wind Gulf Coast conditions.' },
                  { q: 'Do you offer financing for non-claim jobs?', a: 'We work with homeowners to find the most affordable path forward. Contact us directly to discuss your situation and we will find the right solution.' },
                ].map((faq, i) => (
                  <div key={i} className="border-b border-stone-200 pb-12">

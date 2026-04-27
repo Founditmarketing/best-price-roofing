@@ -73,7 +73,7 @@ export function Footer() {
         <div className="pt-12 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex gap-8 text-[9px] font-black text-stone-400 uppercase tracking-[0.2em]">
             <span>© 2024 BEST PRICE ROOFING</span>
-            <span>LICENSED #LA-123456</span>
+            <span>LICENSED & INSURED</span>
           </div>
           <div className="flex gap-8">
             <a href="#" className="text-[9px] font-black text-stone-400 uppercase tracking-[0.2em] hover:text-white transition-colors">Privacy Policy</a>

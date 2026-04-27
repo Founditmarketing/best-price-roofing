@@ -78,7 +78,7 @@ export function About() {
                    Greater <br/><span className="text-white/40">Alexandria</span> <br/>Advocates.
                  </h2>
                  <p className="text-stone-400 text-lg mb-10 leading-relaxed">
-                   We don't just work in Alexandria; we live here. We've watched our neighbors struggle with storm recovery since 2012, and it's why we became experts in insurance forensics. Our goal is to ensure that no one in Rapides Parish gets a sub-par roof after a catastrophe.
+                   We don't just work in Alexandria; we live here. After every major storm we've seen neighbors struggle through the claims process, and it's why we make insurance assistance a core part of what we do. Our goal is to ensure no one in Rapides Parish gets a sub-par roof after a catastrophe.
                  </p>
                  <div className="grid grid-cols-2 gap-6 bg-white/5 p-8 border-l-2 border-roof-red text-stone-900">
                     <div>

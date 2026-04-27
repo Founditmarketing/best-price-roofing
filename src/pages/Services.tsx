@@ -80,7 +80,7 @@ export function Services() {
            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border border-white/5 text-stone-900">
               {[
                 { t: 'Multi-Family', d: 'Expert handling of apartment complexes and HOA communities.' },
-                { t: 'Flat Systems', d: 'Specialized TPO and EPDM membranes for industrial durability.' },
+                { t: 'Flat Roofing', d: 'Low-slope and flat roof solutions for residential and commercial properties.' },
                 { t: 'Forensic Audit', d: 'Detailed post-storm damage reports for legal/insurance use.' },
                 { t: 'Ridge Shield', d: 'Custom ventilation upgrades to reduce Louisiana attic heat.' },
               ].map((cap, i) => (
@@ -113,9 +113,9 @@ export function Services() {
                     {[
                       { c: 'Main Shingle', s: 'Standard 3-Tab/Basic Arch', b: 'Owens Corning Duration / Atlas Pinnacle' },
                       { c: 'Underlayment', s: '15lb Asphalt Felt', b: 'High-Weight Synthetic Breathable' },
-                      { c: 'Nailing Protocol', s: '4 Nails (Standard)', b: '6 Nails (High Wind Zone Pattern)' },
+                      { c: 'Nailing Protocol', s: 'Standard Pattern', b: 'Enhanced High-Wind Pattern' },
                       { c: 'Ventilation', s: 'Standard Box Vents', b: 'Continuous High-Flow Ridge Vents' },
-                      { c: 'Warranty', s: '1-2 Year Workmanship', b: '10-Year Master Workmanship Guarantee' },
+                      { c: 'Warranty', s: 'Standard Workmanship', b: 'Manufacturer-Backed Material Warranties' },
                     ].map((row, i) => (
                       <tr key={i} className="border-b border-stone-100 hover:bg-stone-50 transition-colors group text-stone-900">
                          <td className="py-6 font-black text-stone-400 group-hover:text-roof-charcoal transition-colors">{row.c}</td>

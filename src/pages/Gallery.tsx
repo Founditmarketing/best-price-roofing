@@ -136,7 +136,7 @@ export function Gallery() {
             </p>
             <div className="space-y-6">
               {[
-                'Owens Corning Duration Shingles (130 MPH Wind Rating)',
+                'Owens Corning Duration Shingles — High-Wind Rated',
                 'Hand-Nail Options for precision placement',
                 'Complete Gutter & Fascia structural inspection',
                 'Zero-Debris Cleanup Guarantee',
