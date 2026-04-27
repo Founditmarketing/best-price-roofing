@@ -303,40 +303,6 @@ export function Home() {
          </div>
       </section>
 
-      {/* Service Area Grid */}
-      <section className="py-44 bg-stone-50 border-t border-stone-200">
-         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
-            <div className="grid lg:grid-cols-12 gap-24 items-center">
-               <div className="lg:col-span-4">
-                  <div className="text-label text-stone-500 mb-6 uppercase tracking-widest font-black">Strategic Coverage</div>
-                  <h2 className="text-4xl md:text-6xl mb-8 leading-tight italic font-black uppercase tracking-tighter">
-                    Central <span className="text-roof-red">Hub.</span>
-                  </h2>
-                  <p className="text-stone-500 text-lg mb-10 leading-relaxed uppercase tracking-widest text-[10px] font-black">
-                    Serving Rapides Parish and surrounding areas with 24/7 emergency response availability.
-                  </p>
-                  <div className="space-y-3">
-                     {['Alexandria', 'Pineville', 'Woodworth', 'Ball', 'Boyce', 'Lecompte'].map(city => (
-                        <div key={city} className="flex justify-between border-b border-stone-200 py-3 group cursor-default">
-                           <span className="text-xs font-black uppercase tracking-widest text-stone-400 group-hover:text-roof-red transition-colors">{city}</span>
-                           <span className="text-[10px] font-mono text-stone-400 italic">Operating Sector</span>
-                        </div>
-                     ))}
-                  </div>
-               </div>
-               <div className="lg:col-span-8 bg-black aspect-video relative group overflow-hidden shadow-2xl">
-                  <img src="/images/IMG_3700.png" alt="Best Price Roofing project" className="absolute inset-0 w-full h-full object-cover grayscale opacity-40 group-hover:opacity-60 transition-all duration-1000" />
-                  <div className="absolute inset-0 bg-linear-to-t from-black via-black/20 to-transparent" />
-                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
-                     <div className="w-4 h-4 bg-roof-red rounded-full animate-ping" />
-                     <div className="w-2 h-2 bg-roof-red rounded-full absolute top-1" />
-                     <div className="mt-4 bg-white text-black px-4 py-1 text-[10px] font-black uppercase whitespace-nowrap">HQ: Alexandria, LA</div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
       {/* Why Choose Us & Process */}
       <section className="py-44 bg-white">
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
