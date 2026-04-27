@@ -114,8 +114,14 @@ export function Gallery() {
 
         {/* Horizontal Strip */}
         <div className="mb-40 border-t border-white/10 pt-20">
-          <div className="text-label text-stone-400 mb-12 uppercase tracking-widest font-black">More From The Field</div>
-          <div className="flex gap-6 overflow-x-auto pb-6">
+          <div className="flex items-center justify-between mb-12">
+            <div className="text-label text-stone-400 uppercase tracking-widest font-black">More From The Field</div>
+            <div className="flex items-center gap-2 text-[10px] text-stone-600 font-mono uppercase tracking-widest animate-pulse">
+              <span>Scroll to browse</span>
+              <span>→</span>
+            </div>
+          </div>
+          <div className="flex gap-6 overflow-x-auto pb-6 scrollbar-hide">
             {STRIP_PHOTOS.map((src, i) => (
               <div key={i} className="shrink-0 w-80 h-56 overflow-hidden border border-white/5 group">
                 <img src={src} alt={`Field photo ${i + 1}`} className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" />

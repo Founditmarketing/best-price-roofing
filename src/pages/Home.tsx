@@ -306,7 +306,7 @@ export function Home() {
             
             <div className="grid md:grid-cols-2 gap-16 lg:gap-32">
                {[
-                 { q: 'How long does a full shingle replacement take?', a: 'For a standard residential home (2,500-3,500 sq ft), we typically complete the strip-and-install within 24-48 hours. Our specialized crews move with industrial speed without sacrificing precision.' },
+                 { q: 'How long does a full shingle replacement take?', a: 'Most residential jobs are completed within 24-48 hours from tear-off to cleanup. Our crews move efficiently without cutting corners on quality.' },
                  { q: 'Will my insurance cover a 20-year-old roof?', a: 'If there is verifiable storm damage (wind/hail), most policies cover replacement cost rather than actual cash value. We provide the detailed damage documentation your adjuster needs to verify the claim.' },
                  { q: 'What makes your shingles "Storm Ready"?', a: 'We exclusively use high-weight shingles with reinforced nail zones and enhanced adhesive strips. Our Owens Corning and Atlas lines are engineered for high-wind Gulf Coast conditions.' },
                  { q: 'Do you offer financing for non-claim jobs?', a: 'We work with homeowners to find the most affordable path forward. Contact us directly to discuss your situation and we will find the right solution.' },
