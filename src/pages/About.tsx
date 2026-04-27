@@ -54,7 +54,7 @@ export function About() {
         {/* Values - The Industrial Way */}
         <div className="border-t border-white/10 pt-32">
           <div className="text-label text-stone-500 mb-16 uppercase tracking-widest font-black">The BPR Standard — Logic & Integrity</div>
-          <div className="grid md:grid-cols-3 gap-px bg-white/10 border border-white/10 shadow-2xl">
+          <div className="grid md:grid-cols-3 gap-px bg-white/10 border border-white/10 shadow-2xl text-stone-900">
             {[
               { t: 'Safety First', d: 'OSHA compliant on every site. No shortcuts, no risks to your property or our team.', icon: ShieldCheck },
               { t: 'Premier Gear', d: 'We only use Owens Corning and Atlas Pinnacle shingles—materials built for the Gulf Coast.', icon: Award },
@@ -80,7 +80,7 @@ export function About() {
                  <p className="text-stone-400 text-lg mb-10 leading-relaxed">
                    We don't just work in Alexandria; we live here. We've watched our neighbors struggle with storm recovery since 2012, and it's why we became experts in insurance forensics. Our goal is to ensure that no one in Rapides Parish gets a sub-par roof after a catastrophe.
                  </p>
-                 <div className="grid grid-cols-2 gap-6 bg-white/5 p-8 border-l-2 border-roof-red">
+                 <div className="grid grid-cols-2 gap-6 bg-white/5 p-8 border-l-2 border-roof-red text-stone-900">
                     <div>
                        <div className="text-[10px] font-black text-stone-400 uppercase mb-2">Sponsorships</div>
                        <p className="text-xs text-white uppercase font-bold italic">Local Youth Baseball • Cenla Food Bank</p>

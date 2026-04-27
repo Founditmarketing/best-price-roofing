@@ -19,7 +19,7 @@ export function Contact() {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-12 gap-px bg-white/5 border border-white/5">
+        <div className="grid lg:grid-cols-12 gap-px bg-white/5 border border-white/5 text-stone-900">
           {/* Info Side */}
           <div className="lg:col-span-5 p-12 bg-black flex flex-col justify-between">
              <div className="space-y-16">

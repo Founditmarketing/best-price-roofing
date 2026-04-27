@@ -21,6 +21,25 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading font-black tracking-tighter uppercase leading-[0.95];
   }
+
+  /* Safety net: any element carrying a light bg automatically gets dark text
+     so headings don't inherit the global text-white from body */
+  .bg-white h1, .bg-white h2, .bg-white h3, .bg-white h4, .bg-white h5, .bg-white h6,
+  .bg-white p, .bg-white span, .bg-white li, .bg-white td, .bg-white th,
+  .bg-stone-50 h1, .bg-stone-50 h2, .bg-stone-50 h3, .bg-stone-50 h4,
+  .bg-stone-50 p, .bg-stone-50 span, .bg-stone-50 li, .bg-stone-50 td,
+  .bg-stone-100 h1, .bg-stone-100 h2, .bg-stone-100 h3, .bg-stone-100 h4,
+  .bg-stone-100 p {
+    color: #1c1917; /* stone-900 */
+  }
+
+  /* Explicit overrides take priority — keep colored text working */
+  .text-white { color: #ffffff !important; }
+  .text-roof-red { color: #B22222 !important; }
+  .text-roof-orange { color: #F27D26 !important; }
+  .text-stone-400 { color: #a8a29e !important; }
+  .text-stone-500 { color: #78716c !important; }
+  .text-stone-300 { color: #d6d3d1 !important; }
 }
 
 .industrial-grid {

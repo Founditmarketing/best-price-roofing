@@ -97,7 +97,7 @@ export function Gallery() {
         </div>
 
         {/* Stats Bar */}
-        <div className="grid md:grid-cols-4 gap-px bg-white/5 border border-white/5 mb-40">
+        <div className="grid md:grid-cols-4 gap-px bg-white/5 border border-white/5 mb-40 text-stone-900">
           {[
             { l: 'Residential Units', v: '1,200+', s: 'Completed Parish-wide' },
             { l: 'Commercial Sq Ft',  v: '450k',   s: 'Flat Roof Specialist' },

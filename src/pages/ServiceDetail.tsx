@@ -29,7 +29,7 @@ export function ServiceDetail() {
       </section>
 
       {/* Main Content — full width */}
-      <section className="py-32 bg-white">
+      <section className="py-32 bg-white text-stone-900">
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-24 mb-24">
             {/* Service Overview */}
@@ -43,7 +43,7 @@ export function ServiceDetail() {
               <h2 className="text-4xl mb-8 text-stone-900">Why It Matters</h2>
               <div className="grid gap-4">
                 {service.benefits.map((benefit, i) => (
-                  <div key={i} className="flex gap-4 p-5 bg-stone-50 border border-stone-100">
+                  <div key={i} className="flex gap-4 p-5 bg-stone-50 border border-stone-100 text-stone-900">
                     <div className="w-7 h-7 rounded-full bg-roof-red/10 flex items-center justify-center text-roof-red shrink-0 font-black italic text-sm">!</div>
                     <span className="text-stone-700 font-medium">{benefit}</span>
                   </div>
@@ -133,7 +133,7 @@ export function ServiceDetail() {
       </section>
 
       {/* Gallery Redirect */}
-      <section className="py-20 bg-stone-50 border-t border-stone-200">
+      <section className="py-20 bg-stone-50 border-t border-stone-200 text-stone-900">
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16 text-center">
           <h2 className="text-3xl mb-6">See Our {service.title} Work</h2>
           <Link to="/gallery" className="text-roof-red font-black uppercase text-xs tracking-[0.3em] hover:opacity-80 flex items-center justify-center gap-2">

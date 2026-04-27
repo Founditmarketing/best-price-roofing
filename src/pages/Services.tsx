@@ -77,7 +77,7 @@ export function Services() {
         {/* Industrial Capabilities Expansion */}
         <div className="mt-40 border-t border-white/10 pt-40">
            <div className="text-label text-stone-400 mb-16 uppercase tracking-widest font-black">Industrial Division — Capability Matrix</div>
-           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border border-white/5">
+           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border border-white/5 text-stone-900">
               {[
                 { t: 'Multi-Family', d: 'Expert handling of apartment complexes and HOA communities.' },
                 { t: 'Flat Systems', d: 'Specialized TPO and EPDM membranes for industrial durability.' },
@@ -93,7 +93,7 @@ export function Services() {
         </div>
 
         {/* Material Comparison Protocol */}
-        <div className="mt-40 p-16 md:p-28 bg-white relative overflow-hidden shadow-2xl">
+        <div className="mt-40 p-16 md:p-28 bg-white relative overflow-hidden shadow-2xl text-stone-900">
            <div className="hidden" />
            <div className="relative z-10 text-center mb-16">
               <div className="text-label text-roof-red mb-4 uppercase tracking-[0.3em]">Material Protocol</div>
@@ -117,7 +117,7 @@ export function Services() {
                       { c: 'Ventilation', s: 'Standard Box Vents', b: 'Continuous High-Flow Ridge Vents' },
                       { c: 'Warranty', s: '1-2 Year Workmanship', b: '10-Year Master Workmanship Guarantee' },
                     ].map((row, i) => (
-                      <tr key={i} className="border-b border-stone-100 hover:bg-stone-50 transition-colors group">
+                      <tr key={i} className="border-b border-stone-100 hover:bg-stone-50 transition-colors group text-stone-900">
                          <td className="py-6 font-black text-stone-400 group-hover:text-roof-charcoal transition-colors">{row.c}</td>
                          <td className="py-6">{row.s}</td>
                          <td className="py-6 text-roof-red italic font-black">{row.b}</td>

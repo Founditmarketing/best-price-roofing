@@ -196,7 +196,7 @@ export function Home() {
         ))}
       </div>
 
-      <section className="py-40 bg-white relative overflow-hidden">
+      <section className="py-40 bg-white relative overflow-hidden text-stone-900">
         <div className="shingle-texture absolute inset-0 pointer-events-none" />
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16 relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-24">
@@ -217,7 +217,7 @@ export function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="group border border-stone-200 p-10 hover:border-roof-red transition-all cursor-pointer bg-white"
+                className="group border border-stone-200 p-10 hover:border-roof-red transition-all cursor-pointer bg-white text-stone-900"
               >
                 <div className="w-12 h-12 bg-stone-100 flex items-center justify-center rounded text-roof-charcoal mb-6 group-hover:bg-roof-red group-hover:text-white transition-all">
                   {s.id === 'installations' && <Hammer size={24} />}
@@ -290,7 +290,7 @@ export function Home() {
       </section>
 
       {/* Detailed Technical FAQ Section */}
-      <section className="py-44 bg-white">
+      <section className="py-44 bg-white text-stone-900">
          <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
             <div className="mb-28 text-center">
                <div className="text-label text-roof-red mb-4 uppercase tracking-[0.3em]">Knowledge Base</div>
@@ -316,7 +316,7 @@ export function Home() {
       </section>
 
       {/* Why Choose Us & Process */}
-      <section className="py-44 bg-white">
+      <section className="py-44 bg-white text-stone-900">
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
            <div className="grid lg:grid-cols-2 gap-28 items-center">
               <div>
@@ -364,7 +364,7 @@ export function Home() {
                         {n: '04', t: 'Final Inspection', d: 'We dont leave until we—and you—are 100% satisfied.'},
                       ].map((step, idx) => (
                         <div key={idx} className="flex gap-6 relative">
-                           {idx < 3 && <div className="absolute top-10 left-6 bottom-[-24px] w-px bg-white/10" />}
+                           {idx < 3 && <div className="absolute top-10 left-6 bottom-[-24px] w-px bg-white/10 text-stone-900" />}
                            <div className="w-12 h-12 rounded-full border-2 border-roof-red flex items-center justify-center text-white font-black text-xs shrink-0 bg-roof-red/10 z-10">
                              {step.n}
                            </div>
