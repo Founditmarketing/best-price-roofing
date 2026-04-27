@@ -132,7 +132,7 @@ export function About() {
 
       {/* CTA Band */}
       <div className="mt-40 py-24 bg-linear-to-r from-roof-red to-roof-orange relative overflow-hidden">
-        <div className="hidden" />
+        <img src="/images/IMG_3704.png" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover grayscale opacity-20 mix-blend-multiply pointer-events-none" />
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16 relative z-10 flex flex-col md:flex-row justify-between items-center gap-10 text-center md:text-left">
            <h4 className="text-3xl md:text-5xl text-white max-w-2xl leading-[1.1] italic">
              Ready to experience <br/>the <span className="font-black not-italic underline decoration-4 underline-offset-8">Best Price</span> difference?

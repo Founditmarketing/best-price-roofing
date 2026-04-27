@@ -135,7 +135,9 @@ export function Home() {
       </div>
 
       {/* Testimonials Marquee */}
-      <section className="py-36 bg-stone-950 overflow-hidden">
+      <section className="py-36 bg-stone-950 overflow-hidden relative">
+        <img src="/images/IMG_3700.png" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover grayscale opacity-10 pointer-events-none" />
+        <div className="absolute inset-0 bg-linear-to-b from-stone-950/80 to-stone-950/95 pointer-events-none" />
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 mb-20">
           <div className="text-label text-roof-red mb-4 uppercase tracking-[0.2em]">Voice of the Parish</div>
           <h2 className="text-4xl text-white font-black italic uppercase tracking-tighter">Verified Field Reports</h2>
@@ -278,7 +280,9 @@ export function Home() {
       </section>
 
       {/* Trust Materials Section */}
-      <section className="py-36 bg-stone-900 border-y border-white/5">
+      <section className="py-36 bg-stone-900 border-y border-white/5 relative overflow-hidden">
+        <img src="/images/Untitled-design-12.png" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover grayscale opacity-8 pointer-events-none scale-110" />
+        <div className="absolute inset-0 bg-stone-900/90 pointer-events-none" />
         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16 text-center text-white">
           <p className="text-roof-red font-bold uppercase tracking-[0.3em] text-xs mb-8">Premium Partnerships</p>
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-60 grayscale hover:grayscale-0 transition-all">
@@ -382,7 +386,9 @@ export function Home() {
       </section>
 
       {/* Main CTA Form Section */}
-      <section className="py-44 bg-stone-900 industrial-grid">
+      <section className="py-44 bg-stone-900 relative overflow-hidden">
+        <img src="/images/Untitled-design-7.png" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover grayscale opacity-15 pointer-events-none" />
+        <div className="absolute inset-0 bg-linear-to-b from-stone-900/70 via-stone-900/85 to-stone-900/95 pointer-events-none" />
          <div className="max-w-5xl mx-auto px-6 sm:px-12 text-center">
             <h2 className="text-5xl md:text-7xl mb-8 text-white font-black uppercase italic tracking-tighter leading-none">Ready for a <br/><span className="text-roof-red">Solid</span> Roof?</h2>
             <p className="text-stone-400 text-lg mb-12 uppercase tracking-widest font-black text-[10px]">Schedule your free, zero-pressure inspection today.</p>
