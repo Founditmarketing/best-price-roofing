@@ -135,8 +135,8 @@ export function Home() {
       </div>
 
       {/* Testimonials Marquee Style */}
-      <section className="py-24 bg-stone-950 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 mb-16">
+      <section className="py-36 bg-stone-950 overflow-hidden">
+        <div className="max-w-screen-xl mx-auto px-6 sm:px-12 mb-20">
           <div className="text-label text-roof-red mb-4 uppercase tracking-[0.2em]">Voice of the Parish</div>
           <h2 className="text-4xl text-white font-black italic uppercase tracking-tighter">Verified Field Reports</h2>
         </div>
@@ -147,7 +147,7 @@ export function Home() {
             { n: 'David L.', l: 'Woodworth', t: 'Commercial Flat Roof', c: 'Industrial expertise that you usually don\'t find in smaller companies. Highly recommended for business owners.' },
             { n: 'James R.', l: 'Alexandria', t: 'Storm Damage', c: 'Professional from start to finish. They handled the insurance company and got us a premium roof for just our deductible.' },
           ].map((review, i) => (
-            <div key={i} className="min-w-[400px] bg-roof-surface p-10 border border-white/5">
+            <div key={i} className="min-w-[440px] bg-roof-surface p-12 border border-white/5">
               <div className="flex gap-1 mb-6 text-roof-red">
                  {[...Array(5)].map((_, j) => <Star key={j} size={14} fill="currentColor" />)}
               </div>
@@ -167,10 +167,10 @@ export function Home() {
       </section>
 
       {/* Services Overview Mini Cards */}
-      <section className="py-24 bg-white relative overflow-hidden">
+      <section className="py-40 bg-white relative overflow-hidden">
         <div className="shingle-texture absolute inset-0 pointer-events-none" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-16">
+        <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16 relative z-10">
+          <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-24">
             <div className="max-w-2xl">
               <h2 className="text-4xl md:text-5xl mb-4">Precision <span className="text-roof-red font-black italic">Workmanship.</span></h2>
               <p className="text-stone-500 text-lg">Every project we take on is treated with the same level of focus, whether it's a simple repair or a multi-million dollar installation.</p>
@@ -180,7 +180,7 @@ export function Home() {
             </Link>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-4 gap-8">
             {SERVICES.map((s, idx) => (
               <motion.div 
                 key={s.id}
@@ -188,7 +188,7 @@ export function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="group border border-stone-200 p-8 hover:border-roof-red transition-all cursor-pointer bg-white"
+                className="group border border-stone-200 p-10 hover:border-roof-red transition-all cursor-pointer bg-white"
               >
                 <div className="w-12 h-12 bg-stone-100 flex items-center justify-center rounded text-roof-charcoal mb-6 group-hover:bg-roof-red group-hover:text-white transition-all">
                   {s.id === 'installations' && <Hammer size={24} />}
@@ -208,9 +208,9 @@ export function Home() {
       </section>
 
       {/* Meet the Specialist */}
-      <section className="py-32 bg-roof-charcoal">
-         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-20 items-center">
+      <section className="py-44 bg-roof-charcoal">
+         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
+            <div className="grid lg:grid-cols-2 gap-28 items-center">
                <div className="relative group">
                   <div className="absolute -inset-4 border-2 border-roof-red/20 group-hover:-inset-6 transition-all duration-700" />
                   <img 
@@ -249,8 +249,8 @@ export function Home() {
       </section>
 
       {/* Trust Materials Section */}
-      <section className="py-24 bg-stone-900 border-y border-white/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+      <section className="py-36 bg-stone-900 border-y border-white/5">
+        <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16 text-center text-white">
           <p className="text-roof-red font-bold uppercase tracking-[0.3em] text-xs mb-8">Premium Partnerships</p>
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-60 grayscale hover:grayscale-0 transition-all">
             <h2 className="text-3xl font-black italic">OWENS CORNING</h2>
@@ -261,14 +261,14 @@ export function Home() {
       </section>
 
       {/* Detailed Technical FAQ Section */}
-      <section className="py-32 bg-white">
-         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="mb-20 text-center">
+      <section className="py-44 bg-white">
+         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
+            <div className="mb-28 text-center">
                <div className="text-label text-roof-red mb-4 uppercase tracking-[0.3em]">Knowledge Base</div>
                <h2 className="text-5xl md:text-7xl font-black italic uppercase tracking-tighter">Field Intelligence</h2>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-12 lg:gap-24">
+            <div className="grid md:grid-cols-2 gap-16 lg:gap-32">
                {[
                  { q: 'How long does a full shingle replacement take?', a: 'For a standard residential home (2,500-3,500 sq ft), we typically complete the strip-and-install within 24-48 hours. Our specialized crews move with industrial speed without sacrificing precision.' },
                  { q: 'Will my insurance cover a 20-year-old roof?', a: 'If there is verifiable storm damage (wind/hail), most policies cover replacement cost rather than actual cash value. We provide the structural forensic evidence your adjuster needs to verify the claim.' },
@@ -287,9 +287,9 @@ export function Home() {
       </section>
 
       {/* Service Area Grid */}
-      <section className="py-32 bg-stone-50 border-t border-stone-200">
-         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-12 gap-20 items-center">
+      <section className="py-44 bg-stone-50 border-t border-stone-200">
+         <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
+            <div className="grid lg:grid-cols-12 gap-24 items-center">
                <div className="lg:col-span-4">
                   <div className="text-label text-stone-500 mb-6 uppercase tracking-widest font-black">Strategic Coverage</div>
                   <h2 className="text-4xl md:text-6xl mb-8 leading-tight italic font-black uppercase tracking-tighter">
@@ -321,9 +321,9 @@ export function Home() {
       </section>
 
       {/* Why Choose Us & Process */}
-      <section className="py-32 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-           <div className="grid lg:grid-cols-2 gap-20 items-center">
+      <section className="py-44 bg-white">
+        <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
+           <div className="grid lg:grid-cols-2 gap-28 items-center">
               <div>
                 <h2 className="text-4xl md:text-5xl mb-8 font-black uppercase tracking-tighter italic">Why Alexandria Trusts <span className="text-roof-red">The Best.</span></h2>
                 <div className="grid gap-8">
@@ -387,8 +387,8 @@ export function Home() {
       </section>
 
       {/* Main CTA Form Section */}
-      <section className="py-32 bg-stone-900 industrial-grid">
-         <div className="max-w-4xl mx-auto px-4 text-center">
+      <section className="py-44 bg-stone-900 industrial-grid">
+         <div className="max-w-5xl mx-auto px-6 sm:px-12 text-center">
             <h2 className="text-5xl md:text-7xl mb-8 text-white font-black uppercase italic tracking-tighter leading-none">Ready for a <br/><span className="text-roof-red">Solid</span> Roof?</h2>
             <p className="text-stone-400 text-lg mb-12 uppercase tracking-widest font-black text-[10px]">Schedule your free, zero-pressure inspection today.</p>
             <div className="bg-roof-charcoal p-8 md:p-16 rounded shadow-2xl border border-white/5">

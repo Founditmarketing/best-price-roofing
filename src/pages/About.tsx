@@ -11,10 +11,10 @@ const fadeInUp = {
 
 export function About() {
   return (
-    <div className="bg-roof-charcoal pt-32 pb-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-roof-charcoal pt-40 pb-32">
+      <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
         {/* Hero Section */}
-        <div className="grid lg:grid-cols-2 gap-20 items-center mb-32">
+        <div className="grid lg:grid-cols-2 gap-28 items-center mb-44">
           <motion.div {...fadeInUp}>
             <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Established 2012</div>
             <h1 className="text-[56px] md:text-[80px] text-white mb-10 leading-[0.9]">
@@ -52,7 +52,7 @@ export function About() {
         </div>
 
         {/* Values - The Industrial Way */}
-        <div className="border-t border-white/10 pt-24">
+        <div className="border-t border-white/10 pt-32">
           <div className="text-label text-stone-500 mb-16 uppercase tracking-widest font-black">The BPR Standard — Logic & Integrity</div>
           <div className="grid md:grid-cols-3 gap-px bg-white/10 border border-white/10 shadow-2xl">
             {[
@@ -70,8 +70,8 @@ export function About() {
         </div>
 
         {/* Community Roots */}
-        <div className="mt-32 py-32 border-t border-white/10">
-           <div className="grid lg:grid-cols-2 gap-20 items-center">
+        <div className="mt-40 py-40 border-t border-white/10">
+           <div className="grid lg:grid-cols-2 gap-28 items-center">
               <div>
                  <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Cenla Commitment</div>
                  <h2 className="text-4xl md:text-6xl text-white mb-8 leading-tight italic font-black uppercase tracking-tighter">
@@ -105,7 +105,7 @@ export function About() {
         </div>
 
         {/* Technical Heritage */}
-        <div className="mt-32 p-12 md:p-20 bg-roof-surface border border-white/5 relative overflow-hidden">
+        <div className="mt-40 p-16 md:p-28 bg-roof-surface border border-white/5 relative overflow-hidden">
            <div className="industrial-grid absolute inset-0 opacity-5" />
            <div className="relative z-10 text-center max-w-3xl mx-auto">
               <h3 className="text-3xl text-white mb-10 italic uppercase tracking-tighter font-black">The "Best Price" Logic</h3>
@@ -129,9 +129,9 @@ export function About() {
       </div>
 
       {/* CTA Band */}
-      <div className="mt-32 py-20 bg-linear-to-r from-roof-red to-roof-orange relative overflow-hidden">
-        <div className="shingle-texture absolute inset-0 opacity-20" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row justify-between items-center gap-10 text-center md:text-left">
+      <div className="mt-40 py-24 bg-linear-to-r from-roof-red to-roof-orange relative overflow-hidden">
+        <div className="hidden" />
+        <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16 relative z-10 flex flex-col md:flex-row justify-between items-center gap-10 text-center md:text-left">
            <h4 className="text-3xl md:text-5xl text-white max-w-2xl leading-[1.1] italic">
              Ready to experience <br/>the <span className="font-black not-italic underline decoration-4 underline-offset-8">Best Price</span> difference?
            </h4>

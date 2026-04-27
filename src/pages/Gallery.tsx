@@ -20,12 +20,12 @@ const PHOTOS = [
 
 export function Gallery() {
   return (
-    <div className="bg-roof-charcoal pt-32 pb-24 min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-roof-charcoal pt-40 pb-32 min-h-screen">
+      <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mb-20"
+          className="mb-28"
         >
           <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Visual Proof — The BPR Portfolio</div>
           <h1 className="text-[56px] md:text-[90px] text-white leading-none mb-8">
@@ -36,7 +36,7 @@ export function Gallery() {
           </p>
         </motion.div>
 
-        <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8 mb-32">
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-10 space-y-10 mb-40">
           {PHOTOS.map((photo, i) => (
             <motion.div 
               key={photo.id}
@@ -69,7 +69,7 @@ export function Gallery() {
         </div>
 
         {/* Industrial Stats & Capabilities */}
-        <div className="grid md:grid-cols-4 gap-px bg-white/5 border border-white/5 mb-32">
+        <div className="grid md:grid-cols-4 gap-px bg-white/5 border border-white/5 mb-40">
            {[
              { l: 'Residential Units', v: '1,200+', s: 'Completed Parish-wide' },
              { l: 'Commercial Sq Ft', v: '450k', s: 'Flat Roof Specialist' },
@@ -85,7 +85,7 @@ export function Gallery() {
         </div>
 
         {/* Technical Deep Dive / Case Study Teaser */}
-        <div className="grid lg:grid-cols-2 gap-20 items-center py-32 border-t border-white/10">
+        <div className="grid lg:grid-cols-2 gap-28 items-center py-44 border-t border-white/10">
            <div>
               <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Project Breakdown 4.02</div>
               <h2 className="text-4xl md:text-6xl text-white mb-8 leading-tight italic font-black uppercase tracking-tighter">
@@ -123,7 +123,7 @@ export function Gallery() {
         </div>
 
         {/* Closing CTA */}
-        <div className="text-center py-20 px-4 border border-roof-red/20 bg-roof-red/5">
+        <div className="text-center py-32 px-8 border border-roof-red/20 bg-roof-red/5">
            <h3 className="text-3xl text-white mb-8 italic uppercase tracking-tighter">See Your Home In Our Next Update?</h3>
            <Link to="/contact" className="inline-block bg-roof-red text-white px-12 py-6 font-black uppercase text-xs tracking-[0.3em] hover:bg-white hover:text-black transition-all">
               Request Project Quote

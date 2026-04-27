@@ -12,12 +12,12 @@ const fadeInUp = {
 
 export function Services() {
   return (
-    <div className="bg-roof-charcoal pt-32 pb-24 min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-roof-charcoal pt-40 pb-32 min-h-screen">
+      <div className="max-w-screen-xl mx-auto px-6 sm:px-12 lg:px-16">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mb-24"
+          className="mb-32"
         >
           <div className="text-label text-roof-red mb-6 uppercase tracking-widest font-black">Central Louisiana's Full-Spectrum Coverage</div>
           <h1 className="text-[56px] md:text-[90px] text-white leading-none mb-8">
@@ -28,7 +28,7 @@ export function Services() {
           </p>
         </motion.div>
 
-        <div className="grid gap-12">
+        <div className="grid gap-16">
           {SERVICES.map((service, i) => (
             <motion.div 
                key={service.id}
@@ -45,7 +45,7 @@ export function Services() {
                   <div className="absolute inset-0 bg-roof-charcoal/40 group-hover:bg-transparent transition-colors" />
                </div>
                
-               <div className="lg:w-2/3 p-8 lg:p-16 flex flex-col">
+               <div className="lg:w-2/3 p-10 lg:p-20 flex flex-col">
                   <div className="flex justify-between items-start mb-6">
                     <h2 className="text-3xl md:text-5xl text-white uppercase tracking-tight font-black">{service.title}</h2>
                     <span className="text-4xl font-mono text-white/5 group-hover:text-roof-red transition-colors font-black">0{i+1}</span>
@@ -75,7 +75,7 @@ export function Services() {
         </div>
 
         {/* Industrial Capabilities Expansion */}
-        <div className="mt-32 border-t border-white/10 pt-32">
+        <div className="mt-40 border-t border-white/10 pt-40">
            <div className="text-label text-stone-500 mb-16 uppercase tracking-widest font-black">Industrial Division — Capability Matrix</div>
            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border border-white/5">
               {[
@@ -93,8 +93,8 @@ export function Services() {
         </div>
 
         {/* Material Comparison Protocol */}
-        <div className="mt-32 p-12 md:p-24 bg-white relative overflow-hidden shadow-2xl">
-           <div className="shingle-texture absolute inset-0 pointer-events-none opacity-10" />
+        <div className="mt-40 p-16 md:p-28 bg-white relative overflow-hidden shadow-2xl">
+           <div className="hidden" />
            <div className="relative z-10 text-center mb-16">
               <div className="text-label text-roof-red mb-4 uppercase tracking-[0.3em]">Material Protocol</div>
               <h3 className="text-4xl md:text-6xl text-roof-charcoal font-black uppercase tracking-tighter italic">Standard vs <span className="text-roof-red">BPR Spec.</span></h3>
@@ -129,7 +129,7 @@ export function Services() {
         </div>
 
         {/* Insurance Focus Band */}
-        <div className="mt-32 p-12 bg-roof-surface border border-white/5 relative overflow-hidden shadow-2xl">
+        <div className="mt-40 p-16 md:p-24 bg-roof-surface border border-white/5 relative overflow-hidden shadow-2xl">
            <div className="shingle-texture absolute inset-0 opacity-5" />
            <div className="relative z-10 grid lg:grid-cols-2 gap-12 items-center">
               <div>
