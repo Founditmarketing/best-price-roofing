@@ -40,7 +40,7 @@ export function About() {
              <img 
                src="/images/Screenshot-2026-03-05-at-10.49.04-AM-1.png" 
                alt="Best Price Roofing — roof ridge and shingles" 
-               className="w-full h-full object-cover object-top grayscale"
+               className="w-full h-full object-cover object-top"
              />
              <div className="glass-panel absolute -bottom-8 left-0 right-0 mx-4 p-8 hidden lg:block">
                 <p className="text-xs text-white leading-relaxed italic uppercase font-bold">

@@ -77,7 +77,7 @@ export function Gallery() {
                 <img
                   src={photo.src}
                   alt={photo.title}
-                  className="w-full min-h-[280px] object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                  className="w-full min-h-[280px] object-cover transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-black via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity p-8 flex flex-col justify-end">
                   <div className="mb-4">
@@ -159,7 +159,7 @@ export function Gallery() {
               <img
                 src="/images/Untitled-design-16-scaled.png"
                 alt="Storm repair site detail"
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 grayscale opacity-40 group-hover:grayscale-0 group-hover:opacity-100"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 opacity-70 group-hover:opacity-100"
               />
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                 <Maximize2 size={64} className="text-white opacity-20 group-hover:opacity-100 transition-opacity" />

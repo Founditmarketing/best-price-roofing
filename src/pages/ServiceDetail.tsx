@@ -120,7 +120,7 @@ export function ServiceDetail() {
                 className="group flex flex-col overflow-hidden border border-white/5 hover:border-white/20 transition-all bg-roof-surface/50"
               >
                 <div className="h-48 overflow-hidden">
-                  <img src={s.image} alt={s.title} className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" />
+                  <img src={s.image} alt={s.title} className="w-full h-full object-cover group-hover:scale-105 transition-all duration-700" />
                 </div>
                 <div className="p-8 flex items-center justify-between">
                   <span className="font-black text-white uppercase tracking-tight group-hover:text-roof-red transition-colors">{s.title}</span>
