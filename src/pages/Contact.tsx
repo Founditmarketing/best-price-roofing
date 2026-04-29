@@ -104,7 +104,7 @@ export function Contact() {
 
         {/* Map area */}
         <div className="mt-20 h-96 bg-black relative group overflow-hidden border border-white/5">
-           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80')] opacity-20 grayscale group-hover:scale-105 transition-transform duration-1000" />
+           <div className="absolute inset-0 bg-[url('/IMG_3689.png')] opacity-20 grayscale group-hover:scale-105 transition-transform duration-1000" />
            <div className="absolute inset-0 bg-linear-to-t from-black via-black/50 to-transparent" />
            <div className="absolute bottom-12 left-12">
               <div className="flex items-center gap-2 mb-2">

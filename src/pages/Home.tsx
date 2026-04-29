@@ -187,10 +187,14 @@ export function Home() {
         {[
           "/images/IMG_3704.png",
           "/images/Untitled-design-9.png",
+          "/IMG_3691.png",
           "/images/Untitled-design-16-scaled.png",
+          "/IMG_3692.png",
           "/images/Untitled-design-11.png",
           "/images/IMG_3716-scaled.jpg",
+          "/IMG_3694.png",
           "/images/Untitled-design-14.png",
+          "/IMG_3699.png",
           "/images/Screenshot-2026-03-05-at-10.48.38-AM.png",
           "/images/Untitled-design-22.png",
         ].map((src, i) => (

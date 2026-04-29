@@ -32,6 +32,11 @@ const PHOTOS = [
   { id: 20, src: "/images/Untitled-design-8.png",                 title: "Insurance Claim Site",      tag: "Insurance" },
   { id: 21, src: "/images/Screenshot-2026-03-05-at-10.48.38-AM.png", title: "Aerial Site View",      tag: "Commercial" },
   { id: 22, src: "/images/IMG_3716-scaled.jpg",                   title: "On-Site Crew",              tag: "Team" },
+  { id: 23, src: "/IMG_3689.png",                                 title: "Roof Installation",         tag: "Installation" },
+  { id: 24, src: "/IMG_3691.png",                                 title: "Premium Materials",         tag: "Workmanship" },
+  { id: 25, src: "/IMG_3692.png",                                 title: "Crew At Work",              tag: "Team" },
+  { id: 26, src: "/IMG_3694.png",                                 title: "Finished Roof",             tag: "Residential" },
+  { id: 27, src: "/IMG_3699.png",                                 title: "Quality Detail",            tag: "Workmanship" },
 ];
 
 const STRIP_PHOTOS = [
@@ -42,6 +47,10 @@ const STRIP_PHOTOS = [
   "/images/Screenshot-2026-03-05-at-10.49.04-AM-1.png",
   "/images/Untitled-design-4.png",
   "/images/Untitled-design-16-scaled.png",
+  "/IMG_3691.png",
+  "/IMG_3692.png",
+  "/IMG_3694.png",
+  "/IMG_3699.png",
 ];
 
 export function Gallery() {
