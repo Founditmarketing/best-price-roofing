@@ -68,7 +68,7 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         from: 'Best Price Roofing <hello@bestpriceroofing.net>',
-        to: ['0nleiter@gmail.com'],
+        to: ['mbrown@premierrehabswla.com'],
         reply_to: email || undefined,
         subject: `New roof inspection request — ${name}${service ? ' · ' + service : ''}`,
         html,
