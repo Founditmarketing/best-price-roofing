@@ -2,8 +2,8 @@
 
 Static single-page site with a Resend-backed contact form. Deployed via Vercel from `main`.
 
-- Live: https://best-price-roofing.vercel.app
-- Contact API: `api/contact.js` — POSTs to Resend using `RESEND_API_KEY` (Vercel env var). Currently routes inquiries to `0nleiter@gmail.com` for testing.
+- Live: https://bestpriceroofing.net
+- Contact API: `api/contact.js` — POSTs to Resend using `RESEND_API_KEY` (Vercel env var). Routes inquiries to `james@bestpriceroofing.net`.
 - Form: `index.html` — 3-step quote form (`#quoteForm`) posts JSON to `/api/contact`.
 
 ## Local development
