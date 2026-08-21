@@ -161,3 +161,19 @@ if(qf){
     }catch{ btn.disabled = false; btn.textContent = 'Try again or call 318-613-0072'; }
   });
 }
+
+// financing announcement bar: dismissible, remembered per browser
+const finbar = document.getElementById('finbar');
+if(finbar){
+  try{ if(localStorage.getItem('bpr-fin-dismissed') === '1') document.body.classList.add('fin-off'); }catch{}
+  const finx = document.getElementById('finx');
+  if(finx) finx.addEventListener('click', () => {
+    document.body.classList.add('fin-off');
+    try{ localStorage.setItem('bpr-fin-dismissed','1'); }catch{}
+  });
+}
+
+// financing click tracking (no-op if GA isn't loaded)
+document.querySelectorAll('a[data-fin]').forEach(a => a.addEventListener('click', () => {
+  if(typeof gtag === 'function') gtag('event','financing_click',{placement:a.dataset.fin});
+}));

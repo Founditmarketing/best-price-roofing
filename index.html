@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Best Price Roofing — Alexandria, LA | Louisiana Weather Meets Its Match</title>
-<meta name="description" content="Best Price Roofing builds storm-rated roofs for Central Louisiana. Owens Corning & Atlas certified. Free inspections. Insurance claims handled. Call 318-613-0072.">
+<meta name="description" content="Best Price Roofing builds storm-rated roofs for Central Louisiana. Financing now available. Owens Corning &amp; Atlas certified. Free inspections. Insurance claims handled. Call 318-613-0072.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700;800;900&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
@@ -17,7 +17,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Best Price Roofing">
 <meta property="og:title" content="Best Price Roofing — Alexandria, LA | Storm-Rated Roofs for Central Louisiana">
-<meta property="og:description" content="Roof replacement, repair and insurance claims handled — free inspections, Owens Corning &amp; Atlas certified. Call 318-613-0072.">
+<meta property="og:description" content="Roof replacement, repair and insurance claims handled — financing now available, free inspections, Owens Corning &amp; Atlas certified. Call 318-613-0072.">
 <meta property="og:url" content="https://bestpriceroofing.net/">
 <meta property="og:image" content="https://bestpriceroofing.net/assets/og-image-2.jpg">
 <meta property="og:image:width" content="1200">
@@ -67,6 +67,8 @@
       "acceptedAnswer": { "@type": "Answer", "text": "It depends on the age of your shingles, how widespread the damage is, and the condition of the decking underneath. If a repair will genuinely hold, we'll quote the repair. We don't push replacements that aren't needed." } },
     { "@type": "Question", "name": "What shingles do you install?",
       "acceptedAnswer": { "@type": "Answer", "text": "Owens Corning Duration® with SureNail® Technology and Atlas Pinnacle® Pristine with Scotchgard™ Protector. Both are architectural systems rated for 130 MPH wind and backed by limited lifetime warranties." } },
+    { "@type": "Question", "name": "Do you offer financing?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Best Price Roofing offers financing through Hearth, so a new roof or a repair can be paid monthly instead of all at once. You can check your options online in about a minute, it carries no obligation, and it does not affect your credit score. Financing is provided by third-party lenders, and your rate and terms depend on the lender and your credit." } },
     { "@type": "Question", "name": "What areas do you serve?",
       "acceptedAnswer": { "@type": "Answer", "text": "Alexandria, Pineville, Ball, Tioga, Boyce, Woodworth and the surrounding Central Louisiana communities." } }
   ]
@@ -86,6 +88,18 @@
 </head>
 <body>
 
+<!-- FINANCING ANNOUNCEMENT BAR — Hearth prequalification. Dismissible (assets/site.js). -->
+<div class="finbar" id="finbar">
+  <a class="finbar-in" href="https://app.gethearth.com/financing/64905/114124/prequalify?utm_campaign=64905&amp;utm_content=general&amp;utm_medium=website&amp;utm_source=contractor&amp;utm_term=114124" target="_blank" rel="noopener" data-fin="top-banner">
+    <span class="fb-tag spec">New</span>
+    <span class="fb-msg"><b>Financing now available</b><span class="fb-more"> &mdash; turn your new roof into a monthly payment.</span></span>
+    <span class="fb-cta">Check your options
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </span>
+  </a>
+  <button class="finbar-x" id="finx" type="button" aria-label="Dismiss financing banner">&times;</button>
+</div>
+
 <nav>
   <div class="nav-inner">
     <a class="logo" href="#top">
@@ -95,6 +109,7 @@
     <div class="nav-links">
       <a href="#why">Why Us</a>
       <a href="#services">Services</a>
+      <a class="nav-fin" href="#financing">Financing</a>
       <a href="#storm">Insurance Claims</a>
       <a href="#materials">Materials</a>
       <a href="#process">Process</a>
@@ -133,7 +148,12 @@
       <li>Free Inspection</li>
       <li>Insurance Claims Handled</li>
       <li>No-Pressure Quote</li>
+      <li>Financing Available</li>
     </ul>
+    <div class="hero-fin-note spec">
+      <span class="pip" aria-hidden="true"></span>
+      <span>New &mdash; financing available. <a href="#financing">See monthly payment options</a></span>
+    </div>
   </div>
   <div class="spec-bar">
     <div class="wrap">
@@ -147,8 +167,8 @@
 
 <div class="ticker" aria-hidden="true">
   <div class="ticker-track">
-    <span>Roof Replacement</span><span>Storm Damage Repair</span><span>Insurance Claims</span><span>Architectural Shingles</span><span>Free Inspections</span><span>Alexandria · Pineville · CenLA</span>
-    <span>Roof Replacement</span><span>Storm Damage Repair</span><span>Insurance Claims</span><span>Architectural Shingles</span><span>Free Inspections</span><span>Alexandria · Pineville · CenLA</span>
+    <span>Roof Replacement</span><span>Financing Available</span><span>Storm Damage Repair</span><span>Insurance Claims</span><span>Architectural Shingles</span><span>Free Inspections</span><span>Alexandria · Pineville · CenLA</span>
+    <span>Roof Replacement</span><span>Financing Available</span><span>Storm Damage Repair</span><span>Insurance Claims</span><span>Architectural Shingles</span><span>Free Inspections</span><span>Alexandria · Pineville · CenLA</span>
   </div>
 </div>
 
@@ -171,11 +191,14 @@
           <li><strong>Owens Corning&reg; &amp; Atlas&reg; certified</strong></li>
           <li><strong>Locally owned</strong> in Central Louisiana</li>
           <li><strong>Limited lifetime warranties</strong></li>
+          <li><strong>Financing available</strong> through Hearth</li>
         </ul>
         <!-- TRUST SLOT FOR JAMES — the single biggest conversion lever still missing.
              Once you send real figures, surface them here (and in the hero spec-bar):
                - Google rating + number of reviews   - years in business   - roofs completed
-               - BBB rating   - financing offered?   - manufacturer "preferred/certified" tier
+               - BBB rating   - manufacturer "preferred/certified" tier
+             (Financing: done — see the #financing section. Still need the real rates/terms
+              Hearth quotes you before we publish any numbers.)
              These MUST be James's real numbers — never invent them. -->
       </div>
     </div>
@@ -248,6 +271,56 @@
           <li><strong>Fair-coverage focus</strong>, you get what you're owed</li>
         </ul>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINANCING — Hearth prequalification.
+     NOTE FOR JAMES: no rates, terms, APRs or "$X/month" figures are claimed anywhere on
+     this page on purpose. Send the real numbers Hearth gives you and we'll add them here. -->
+<section id="financing" class="fin sec-pad">
+  <div class="wrap">
+    <div class="fin-grid">
+      <div class="rv">
+        <div class="sec-kicker"><span class="rule"></span><span class="spec">New &middot; Roof financing</span></div>
+        <h2 class="fin-title">A new roof now.<br>Payments you<br><em>can live with.</em></h2>
+        <p class="fin-lede">A roof shouldn't have to wait on savings. Best Price Roofing now offers <strong>financing through Hearth</strong>, so you can get the roof your home actually needs and pay for it monthly. <strong>Checking your options takes about a minute and won't affect your credit score.</strong></p>
+        <ul class="fin-list">
+          <li><strong>Monthly payment</strong> options</li>
+          <li><strong>No credit-score impact</strong> to check</li>
+          <li><strong>Repairs or full replacement</strong></li>
+          <li><strong>No obligation</strong>, ever</li>
+        </ul>
+        <div class="hero-ctas">
+          <a class="btn btn-ember" href="https://app.gethearth.com/financing/64905/114124/prequalify?utm_campaign=64905&amp;utm_content=general&amp;utm_medium=website&amp;utm_source=contractor&amp;utm_term=114124" target="_blank" rel="noopener" data-fin="section-primary">Check My Options
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="tel:3186130072">Call 318-613-0072</a>
+        </div>
+        <p class="spec fin-fine">Financing is provided by third-party lenders through Hearth &mdash; not by Best Price Roofing. Rates, terms and approval depend on the lender and your credit. Prequalifying is free, carries no obligation, and does not affect your credit score.</p>
+      </div>
+      <aside class="fin-card rv">
+        <div class="fc-head">How it works</div>
+        <p class="fc-sub">Three steps, and none of them slow your roof down.</p>
+        <ul class="fin-steps">
+          <li>
+            <span class="n">F-01</span><span class="t">Prequalify</span>
+            <span class="d">Answer a few quick questions on Hearth's secure page. About a minute, no credit-score impact.</span>
+          </li>
+          <li>
+            <span class="n">F-02</span><span class="t">Compare</span>
+            <span class="d">See the monthly payment options you qualify for and pick the one that fits your budget.</span>
+          </li>
+          <li>
+            <span class="n">F-03</span><span class="t">Get to work</span>
+            <span class="d">Bring it to your free inspection and we'll build the scope and timeline around it.</span>
+          </li>
+        </ul>
+        <a class="btn btn-ember" href="https://app.gethearth.com/financing/64905/114124/prequalify?utm_campaign=64905&amp;utm_content=general&amp;utm_medium=website&amp;utm_source=contractor&amp;utm_term=114124" target="_blank" rel="noopener" data-fin="section-card">See My Options
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <p class="spec" style="margin-top:14px;text-transform:none;letter-spacing:.07em;line-height:1.7">Opens Hearth's secure prequalification page in a new tab.</p>
+      </aside>
     </div>
   </div>
 </section>
@@ -381,7 +454,11 @@
         <p class="a">Owens Corning Duration® with SureNail® Technology and Atlas Pinnacle® Pristine with Scotchgard™ Protector. Both are architectural systems rated for 130 MPH wind and backed by limited lifetime warranties.</p>
       </details>
       <details>
-        <summary><span class="qn">Q-06</span><h3>What areas do you serve?</h3><span class="ind">+</span></summary>
+        <summary><span class="qn">Q-06</span><h3>Do you offer financing?</h3><span class="ind">+</span></summary>
+        <p class="a">Yes. We now offer financing through Hearth, so a new roof or a repair can be paid monthly instead of all at once. You can <a href="https://app.gethearth.com/financing/64905/114124/prequalify?utm_campaign=64905&amp;utm_content=general&amp;utm_medium=website&amp;utm_source=contractor&amp;utm_term=114124" target="_blank" rel="noopener" data-fin="faq" style="color:var(--ember);border-bottom:1px solid var(--ember)">check your options online</a> in about a minute — no obligation, and it won't affect your credit score. Financing comes from third-party lenders, so your rate and terms depend on the lender and your credit.</p>
+      </details>
+      <details>
+        <summary><span class="qn">Q-07</span><h3>What areas do you serve?</h3><span class="ind">+</span></summary>
         <p class="a">Alexandria, Pineville, Ball, Tioga, Boyce, Woodworth and the surrounding Central Louisiana communities.</p>
       </details>
     </div>
@@ -399,6 +476,13 @@
         <div class="cta-contact">
           <a class="phone" href="tel:3186130072">318-613-0072</a>
           <span class="spec" style="margin-top:14px">James · Best Price Roofing · Alexandria, LA</span>
+        </div>
+        <div class="cta-fin">
+          <div class="t">Need financing?</div>
+          <p>We now offer monthly payment options through Hearth. Check what you qualify for before your inspection &mdash; it won't affect your credit score.</p>
+          <a class="go" href="https://app.gethearth.com/financing/64905/114124/prequalify?utm_campaign=64905&amp;utm_content=general&amp;utm_medium=website&amp;utm_source=contractor&amp;utm_term=114124" target="_blank" rel="noopener" data-fin="contact-block">Check my options
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
         </div>
         <div class="map-embed rv">
           <svg viewBox="0 0 400 200" role="img" aria-label="Service area diagram: Alexandria hub serving Pineville, Tioga, Ball, Boyce and Woodworth">
@@ -500,7 +584,7 @@
       <div class="foot-brand">
         <div class="mark">Best Price <span>Roofing</span></div>
         <p>Fully licensed and insured. Quality roofing at the best value, built on honesty and treating every customer like family.</p>
-        <p class="spec" style="margin-top:16px">Licensed · Insured · Free Inspections · Insurance Claims Handled</p>
+        <p class="spec" style="margin-top:16px">Licensed · Insured · Free Inspections · Insurance Claims Handled · Financing Available</p>
       </div>
       <div>
         <h3>Services</h3>
@@ -511,6 +595,7 @@
       </div>
       <div>
         <h3>Company</h3>
+        <a href="#financing">Financing</a>
         <a href="#process">Our Process</a>
         <a href="#work">Our Work</a>
         <a href="#materials">Materials</a>
