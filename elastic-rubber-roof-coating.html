@@ -102,6 +102,18 @@
 </head>
 <body>
 
+<!-- FINANCING ANNOUNCEMENT BAR — Hearth prequalification. Dismissible (assets/site.js). -->
+<div class="finbar" id="finbar">
+  <a class="finbar-in" href="https://app.gethearth.com/financing/64905/114124/prequalify?utm_campaign=64905&amp;utm_content=general&amp;utm_medium=website&amp;utm_source=contractor&amp;utm_term=114124" target="_blank" rel="noopener" data-fin="top-banner">
+    <span class="fb-tag spec">New</span>
+    <span class="fb-msg"><b>Financing now available</b><span class="fb-more"> &mdash; turn your new roof into a monthly payment.</span></span>
+    <span class="fb-cta">Check your options
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </span>
+  </a>
+  <button class="finbar-x" id="finx" type="button" aria-label="Dismiss financing banner">&times;</button>
+</div>
+
 <nav>
   <div class="nav-inner">
     <a class="logo" href="/">
@@ -111,6 +123,7 @@
     <div class="nav-links">
       <a href="/#why">Why Us</a>
       <a href="/#services">Services</a>
+      <a class="nav-fin" href="/#financing">Financing</a>
       <a href="/storm-damage-insurance-claims">Insurance Claims</a>
       <a href="/#materials">Materials</a>
       <a href="/#process">Process</a>
@@ -145,6 +158,21 @@
     <div class="spec-cell"><div class="num">$0<span>*</span></div><div class="lbl spec">Free, no-obligation inspections</div></div>
   </div>
 </div>
+
+<!-- FINANCING STRIP — links to the full #financing block on the homepage. -->
+<section class="fin-strip">
+  <div class="wrap">
+    <div class="fs-copy">
+      <div class="sec-kicker"><span class="rule"></span><span class="spec">New &middot; Roof financing</span></div>
+      <h2>Coat it now. <em>Pay monthly.</em></h2>
+      <p>A coating costs a fraction of a replacement, and we now offer financing through Hearth on top of that &mdash; so sealing the roof doesn't have to wait for the next leak.</p>
+      <p class="spec fs-fine">Financing through Hearth from third-party lenders. Checking your options takes about a minute, carries no obligation, and won't affect your credit score.</p>
+    </div>
+    <a class="btn btn-ember" href="https://app.gethearth.com/financing/64905/114124/prequalify?utm_campaign=64905&amp;utm_content=general&amp;utm_medium=website&amp;utm_source=contractor&amp;utm_term=114124" target="_blank" rel="noopener" data-fin="page-strip">Check My Options
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
 
 <!-- WHAT IT IS -->
 <section id="what" class="sec-pad">
@@ -440,7 +468,7 @@
       <div class="foot-brand">
         <div class="mark">Best Price <span>Roofing</span></div>
         <p>Fully licensed and insured. Quality roofing at the best value, built on honesty and treating every customer like family.</p>
-        <p class="spec" style="margin-top:16px">Licensed &middot; Insured &middot; Free Inspections &middot; Insurance Claims Handled</p>
+        <p class="spec" style="margin-top:16px">Licensed &middot; Insured &middot; Free Inspections &middot; Insurance Claims Handled &middot; Financing Available</p>
       </div>
       <div>
         <h3>Services</h3>
@@ -452,6 +480,7 @@
       </div>
       <div>
         <h3>Company</h3>
+        <a href="/#financing">Financing</a>
         <a href="/#process">Our Process</a>
         <a href="/#work">Our Work</a>
         <a href="/#materials">Materials</a>
